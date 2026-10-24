@@ -3153,3 +3153,6 @@ footer,
   z-index: 10;
   pointer-events: none;
 }
+
+/* v6: канат до самого низа viewport (убран 100px зазор) */
+.rope-pull { bottom: 0 !important; }
