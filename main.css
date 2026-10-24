@@ -1,6 +1,6 @@
-/* ЦВМ Маяк — main.css v2 (из прототипа index_v2.html + tokens.css) */
+/* ЦВМ Маяк — main.css v7 (прототип + tokens + луч маяка + rope-fix) */
 
-/* ============ tokens.css ============ */
+/* ===== tokens.css ===== */
 /* =============================================================
    tokens.css — Design tokens для сайта АНО ЦВМ «Маяк»
    Автор: brand-designer (МАС, департамент дизайна)
@@ -318,7 +318,7 @@
 }
 
 
-/* ============ main (prototype style[1]) ============ */
+/* ===== main (prototype style[1]) ===== */
 
 /* =========================================================
    Prototype styles for ЦВМ «Маяк» homepage.
@@ -3129,11 +3129,11 @@ footer,
     0 0 40px rgba(90, 35, 24, 0.4);
   color: #F2C464;
 }
-/* v6: канат до самого низа viewport (убран 100px зазор) */
-.rope-pull { bottom: 0 !important; }
+
+
 
 /* ============ v7 "ЛУЧ МАЯКА" переход hero → support — усиленная версия ============
-   Hermès-style минимализм, но с реальной видимостью. */
+   Hermès-style минимализм с реальной видимостью. */
 .sand-texture::before {
   content: '' !important;
   position: absolute !important;
@@ -3154,3 +3154,6 @@ footer,
   z-index: 10000 !important;
   pointer-events: none !important;
 }
+
+/* v6: канат bottom:0 */
+.rope-pull { bottom: 0 !important; }
