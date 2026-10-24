@@ -2073,10 +2073,12 @@ footer > * { position: relative; z-index: 1; }
      сдвинуты ещё левее. Brand ограничен max-width 320px чтобы не растягивался. */
   grid-template-columns: 1fr 1fr 1fr;
   gap: 50px;
-  /* v8 (24.10 вечер): baseline вместо start — выравниваем верхнюю линию "ЦВМ Маяк" / "КАК СВЯЗАТЬСЯ" / "РЕКВИЗИТЫ" */
-  align-items: baseline;
+  align-items: start;
   margin-bottom: 72px;
 }
+/* v8 (24.10 вечер): baseline "КАК СВЯЗАТЬСЯ" / "РЕКВИЗИТЫ" выравниваем с "ЦВМ Маяк".
+   Замерено Playwright: brand baseline на 13px ниже h4 baseline (font 22.4 vs 11.5). */
+.footer-col > h4:first-child { padding-top: 13px; }
 .footer-brand { max-width: 320px; }
 .footer-brand .logo-brand { margin-bottom: 24px; }
 .footer-brand .logo-mark { width: 80px; height: 80px; }
