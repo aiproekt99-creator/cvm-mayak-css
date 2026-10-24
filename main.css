@@ -3142,15 +3142,18 @@ footer,
 
 
 
-/* ============ v7 "ЛУЧ МАЯКА" переход hero → support — усиленная версия ============
-   Hermès-style минимализм с реальной видимостью. */
-.sand-texture::before {
+/* ============ v8 "ЛУЧ МАЯКА" переход hero → support ============
+   КОРЕНЬ: .sand-texture имеет opacity:0.55 → её ::before тоже 0.55 → beam растворяется.
+   FIX: beam теперь ::before у #kategorii (у секции opacity 1). */
+.sand-texture::before { content: none !important; } /* отключаем старый beam */
+:root section#kategorii::before {
   content: '' !important;
   position: absolute !important;
-  top: -1px !important;
+  top: 0 !important;
   left: 0 !important;
   right: 0 !important;
   height: 6px !important;
+  transform: translateY(-3px) !important;
   background: linear-gradient(90deg,
     transparent 0%,
     rgba(217, 190, 126, 0.35) 8%,
@@ -3161,7 +3164,7 @@ footer,
     0 0 32px rgba(244, 217, 152, 0.95),
     0 0 64px rgba(217, 190, 126, 0.6),
     0 0 128px rgba(217, 190, 126, 0.3) !important;
-  z-index: 10000 !important;
+  z-index: 100 !important;
   pointer-events: none !important;
 }
 
