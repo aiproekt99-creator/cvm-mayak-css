@@ -2077,8 +2077,15 @@ footer > * { position: relative; z-index: 1; }
   margin-bottom: 72px;
 }
 /* v8 (24.10 вечер): baseline "КАК СВЯЗАТЬСЯ" / "РЕКВИЗИТЫ" выравниваем с "ЦВМ Маяк".
-   Замерено Playwright: brand baseline на 13px ниже h4 baseline (font 22.4 vs 11.5). */
-.footer-col > h4:first-child { padding-top: 13px; }
+   Замерено Playwright: brand baseline на 13px ниже h4 baseline (font 22.4 vs 11.5).
+   Только на desktop ≥1025px — иначе на tablet/mobile колонки идут в столбик и padding создаёт лишнюю пустоту. */
+@media (min-width: 1025px) {
+  .footer-col > h4:first-child { padding-top: 13px; }
+}
+
+/* v8 beam-fix (24.10 вечер): #kategorii имел overflow:hidden — обрезал .sand-texture::before (beam top:-1px).
+   Делаем overflow:visible — у sand-texture inset:0, за секцию не вылезет. */
+:root section#kategorii { overflow: visible !important; }
 .footer-brand { max-width: 320px; }
 .footer-brand .logo-brand { margin-bottom: 24px; }
 .footer-brand .logo-mark { width: 80px; height: 80px; }
