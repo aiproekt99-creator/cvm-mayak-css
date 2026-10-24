@@ -3129,3 +3129,27 @@ footer,
     0 0 40px rgba(90, 35, 24, 0.4);
   color: #F2C464;
 }
+
+/* ============ v3 "ЛУЧ МАЯКА" переход hero → support ============
+   Тонкая золотая светящаяся линия на верхней кромке .sand-texture.
+   Hermès-style минимализм: граница как намеренный акцент, а не склейка. */
+.sand-texture::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    rgba(217, 190, 126, 0.08) 12%,
+    rgba(244, 217, 152, 0.95) 50%,
+    rgba(217, 190, 126, 0.08) 88%,
+    transparent 100%);
+  box-shadow:
+    0 0 24px rgba(244, 217, 152, 0.55),
+    0 0 48px rgba(217, 190, 126, 0.28),
+    0 0 72px rgba(217, 190, 126, 0.14);
+  z-index: 10;
+  pointer-events: none;
+}
