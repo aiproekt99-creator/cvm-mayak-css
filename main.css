@@ -2083,6 +2083,14 @@ footer > * { position: relative; z-index: 1; }
   .footer-col > h4:first-child { padding-top: 13px; }
 }
 
+/* v8.3 (24.10 вечер): "РЕКВИЗИТЫ" ближе к "КАК СВЯЗАТЬСЯ" — явные узкие ширины колонкам 2,3. */
+@media (min-width: 1025px) {
+  .footer-grid {
+    grid-template-columns: minmax(300px, 1fr) 240px 240px !important;
+    gap: 50px !important;
+  }
+}
+
 /* v8.2 (24.10 вечер): левый край контента ul должен совпадать с левым краем h4.
    Корень: default padding-left у <ul> = 40px → email'ы сдвинуты вправо от "КАК СВЯЗАТЬСЯ". */
 .footer-col .footer-contact {
