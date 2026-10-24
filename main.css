@@ -2073,7 +2073,8 @@ footer > * { position: relative; z-index: 1; }
      сдвинуты ещё левее. Brand ограничен max-width 320px чтобы не растягивался. */
   grid-template-columns: 1fr 1fr 1fr;
   gap: 50px;
-  align-items: start;
+  /* v8 (24.10 вечер): baseline вместо start — выравниваем верхнюю линию "ЦВМ Маяк" / "КАК СВЯЗАТЬСЯ" / "РЕКВИЗИТЫ" */
+  align-items: baseline;
   margin-bottom: 72px;
 }
 .footer-brand { max-width: 320px; }
