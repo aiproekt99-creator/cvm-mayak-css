@@ -2083,8 +2083,14 @@ footer > * { position: relative; z-index: 1; }
   .footer-col > h4:first-child { padding-top: 13px; }
 }
 
-/* v8.1 (24.10 вечер): жёсткая синхронизация строк футера — КАЖДАЯ li одинаковой высоты
-   в обеих колонках + скрыть "— обращения"/"— для юрлиц" (создают визуальный шум и могут переноситься). */
+/* v8.2 (24.10 вечер): левый край контента ul должен совпадать с левым краем h4.
+   Корень: default padding-left у <ul> = 40px → email'ы сдвинуты вправо от "КАК СВЯЗАТЬСЯ". */
+.footer-col .footer-contact {
+  padding-left: 0 !important;
+  margin: 0 !important;
+  list-style: none !important;
+  gap: 14px !important;
+}
 .footer-col .footer-contact small { display: none !important; }
 .footer-col .footer-contact li {
   font-size: 16px !important;
@@ -2097,7 +2103,6 @@ footer > * { position: relative; z-index: 1; }
   font-size: 16px !important;
   line-height: 24.8px !important;
 }
-.footer-col .footer-contact { gap: 14px !important; }
 
 /* v8 beam-fix (24.10 вечер): #kategorii имел overflow:hidden — обрезал .sand-texture::before (beam top:-1px).
    Делаем overflow:visible — у sand-texture inset:0, за секцию не вылезет. */
