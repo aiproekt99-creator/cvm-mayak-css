@@ -2083,11 +2083,12 @@ footer > * { position: relative; z-index: 1; }
   .footer-col > h4:first-child { padding-top: 13px; }
 }
 
-/* v8.3 (24.10 вечер): "РЕКВИЗИТЫ" ближе к "КАК СВЯЗАТЬСЯ" — явные узкие ширины колонкам 2,3. */
+/* v8.3 (24.10 вечер): все 3 колонки с точной шириной + прижать к левому краю. */
 @media (min-width: 1025px) {
   .footer-grid {
-    grid-template-columns: minmax(300px, 1fr) 240px 240px !important;
-    gap: 50px !important;
+    grid-template-columns: 320px 240px 240px !important;
+    gap: 60px !important;
+    justify-content: start !important;
   }
 }
 
