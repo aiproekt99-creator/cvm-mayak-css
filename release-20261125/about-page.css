@@ -1,0 +1,25 @@
+/* Local art direction for about.html only; uses the site's existing artwork. */
+.about-watercolor .v-content{
+  background-color:#111f35!important;
+  background-image:linear-gradient(180deg,rgba(12,27,46,.84),rgba(14,31,51,.94)),url('assets/hero-aivazovsky.webp')!important;
+  background-position:center,center 28%!important;
+  background-size:cover!important;
+  background-attachment:fixed!important;
+}
+[data-theme=light] .about-watercolor .v-content{
+  background-color:#f4ead7!important;
+  background-image:linear-gradient(180deg,rgba(248,241,225,.72),rgba(248,241,225,.91)),url('assets/hero-aivazovsky-light.webp')!important;
+}
+.about-watercolor .v-heading h1,.about-watercolor .v-panel h2{color:var(--ink)!important}
+.about-watercolor .v-side{background:rgba(12,27,46,.76)!important;border-color:rgba(220,193,133,.3)!important;box-shadow:none!important}
+.about-watercolor .v-side a,.about-watercolor .v-side strong{color:#f2e9d6!important}
+.about-watercolor .v-panel{background:rgba(17,34,53,.68)!important;border:1px solid rgba(220,193,133,.22)!important;box-shadow:none!important}
+.about-watercolor .v-panel p,.about-watercolor .v-panel li{color:#eee9df!important}
+.about-watercolor .v-crumbs,.about-watercolor .v-crumbs [aria-current]{color:#e9d7ad!important}
+[data-theme=light] .about-watercolor .v-side{background:rgba(248,244,234,.88)!important;border-color:rgba(103,86,60,.2)!important}
+[data-theme=light] .about-watercolor .v-side a,[data-theme=light] .about-watercolor .v-side strong{color:#20394e!important}
+[data-theme=light] .about-watercolor .v-panel{background:rgba(249,246,237,.77)!important;border-color:rgba(103,86,60,.18)!important}
+[data-theme=light] .about-watercolor .v-panel p,[data-theme=light] .about-watercolor .v-panel li{color:#243a4c!important}
+[data-theme=light] .about-watercolor .v-heading h1,[data-theme=light] .about-watercolor .v-panel h2{color:#20394e!important}
+[data-theme=light] .about-watercolor .v-crumbs,[data-theme=light] .about-watercolor .v-crumbs [aria-current]{color:#725a32!important}
+@media(max-width:700px){.about-watercolor .v-content{background-attachment:scroll!important}}

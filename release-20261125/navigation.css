@@ -1,0 +1,6 @@
+/* Only header spacing changes on the approved homepage. */
+.site-header .main-nav{gap:clamp(18px,2vw,32px);flex-shrink:0}
+.site-header .main-nav a{white-space:nowrap;padding-inline:2px}
+.site-header .header-inner{column-gap:clamp(16px,2vw,32px)}
+@media(max-width:1320px){.site-header .main-nav,.site-header .header-search{display:none}.site-header .nav-toggle{display:inline-flex}.site-header .header-inner{gap:16px}.mobile-nav{overflow-y:auto;overscroll-behavior:contain;justify-content:flex-start;padding-top:80px;gap:10px}.mobile-nav a{flex-shrink:0;min-height:44px}}
+@media(max-width:600px){.site-header .header-inner{gap:8px}}

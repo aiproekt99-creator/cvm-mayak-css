@@ -1,0 +1,77 @@
+/* Internal page art direction. The approved homepage does not load this file. */
+.marine-page{--sea:#101f32;--sea-soft:#1a3345;--ink:#f0eee6;--muted:#bdcbd0;--accent:#e6c583;--line:#e6c5834d;--wash:#5c9ba51c;--sheet:#162b3b;background:var(--sea);color:var(--ink)}
+[data-theme=light] .marine-page{--sea:#f6efe2;--sea-soft:#e6ebe3;--ink:#18394a;--muted:#435b64;--accent:#765722;--line:#85663350;--wash:#719c9c22;--sheet:#faf5eaff}
+.marine-page main,.marine-page .review-main{background:var(--sea);color:var(--ink)}
+.marine-page .v-content{background:var(--sea);color:var(--ink)}
+.marine-page footer{background:linear-gradient(180deg,var(--sea),var(--sea-soft));color:var(--ink)}
+.marine-page footer::before,.marine-page footer::after{opacity:.035}
+.marine-page footer .footer-brand p,.marine-page footer .footer-contact,.marine-page footer .footer-contact a,.marine-page footer .footer-bottom,.marine-page footer .brand-text,.marine-page footer .brand-text small{color:var(--ink)}
+.marine-page footer .footer-col h4,.marine-page footer .site-credits,.marine-page footer .privacy-mini a{color:var(--accent)}
+.marine-page footer a{color:var(--accent)!important;text-shadow:none!important}
+[data-theme=light] .marine-page footer *,[data-theme=light] .marine-page footer .footer-brand .brand-text,[data-theme=light] .marine-page footer .footer-brand .brand-text small{color:var(--ink)!important;text-shadow:none!important}
+[data-theme=light] .marine-page footer h4,[data-theme=light] .marine-page footer a,[data-theme=light] .marine-page footer .site-credits{color:var(--accent)!important}
+.marine-page .mobile-nav{background:var(--sea);color:var(--ink)}
+.marine-page .mobile-nav a{color:var(--ink)}
+.marine-page .privacy-page{background:var(--sea);color:var(--ink)}
+.marine-page .privacy-page h1,.marine-page .privacy-page h2,.marine-page .privacy-page p{color:var(--ink)}
+.marine-page .privacy-page .org,.marine-page .privacy-page .toc{background:var(--sheet);border-color:var(--line);color:var(--ink)}
+.marine-page .privacy-page a,.marine-page .privacy-page .meta,.marine-page .privacy-page .foot{color:var(--muted)}
+.legal-theme{display:block;margin:16px auto;background:var(--sheet);color:var(--accent);border:1px solid var(--line);border-radius:20px;padding:12px 20px;cursor:pointer}
+.marine-page .sand-texture{opacity:.035}
+.marine-page .v-content{padding-bottom:70px}
+.marine-page .v-heading h1,.marine-page .v-panel h2,.marine-page .v-panel h3,.marine-page .v-card h2,.marine-page .v-card h3{color:var(--ink)}
+.marine-page .v-heading h1{font-size:clamp(2.6rem,5.8vw,5.8rem);letter-spacing:-.035em;line-height:1.05}
+.marine-page .v-crumbs a,.marine-page .v-crumbs [aria-current],.marine-page .v-eyebrow,.marine-page main a:not(.v-button){color:var(--accent)}
+.marine-page .v-panel,.marine-page .v-card{background:var(--sheet);color:var(--ink);border:1px solid var(--line);box-shadow:none;border-radius:12px}
+.marine-page .v-panel p,.marine-page .v-panel li,.marine-page .v-card p,.marine-page .v-data dd,.marine-page .v-placeholder strong,.marine-page .v-timeline strong{color:var(--ink)}
+.marine-page .v-panel .v-note,.marine-page .v-data dt,.marine-page .v-panel small,.marine-page .v-card small,.marine-page .v-timeline span{color:var(--muted)}
+.marine-page .v-panel .v-note,.marine-page .v-placeholder,.marine-page .v-empty{background:var(--wash);color:var(--ink);border-color:var(--line)}
+.marine-page .v-side{background:transparent;border-color:var(--line);box-shadow:none}
+.marine-page .v-side a,.marine-page .v-side strong{color:var(--ink)}
+.marine-page .v-side a:hover{color:var(--accent);background:var(--wash)}
+.marine-page .v-button{color:var(--sea);background:var(--accent);border-color:var(--accent)}
+.marine-page .v-button--outline{color:var(--accent);background:transparent}
+.marine-page .v-form input:not([type=checkbox]),.marine-page .v-form textarea,.marine-page .v-form select,.marine-page .v-filter input,.marine-page .v-filter select{color:var(--ink);background:var(--sea);border-color:var(--line)}
+.marine-page .v-feedback{color:var(--ink)}
+.marine-page .v-dialog{background:var(--sea);color:var(--ink)}
+.marine-page .v-dialog h2,.marine-page .v-dialog a,.marine-page .v-dialog button{color:var(--accent)}
+.marine-page .v-assistant{background:var(--sea);color:var(--accent);border-color:var(--line)}
+.marine-page .review-rays figcaption{color:var(--muted)}
+.marine-page .review-values{color:var(--ink);border-color:var(--line)}
+.marine-page .review-docs>div{border:0;border-top:1px solid var(--line);border-radius:0;padding:20px 0}
+.marine-page :focus-visible{outline:3px solid var(--accent);outline-offset:5px}
+.section-return{display:flex;justify-content:space-between;gap:16px;max-width:1320px;margin:auto;padding:24px clamp(20px,4vw,56px) 0;position:relative;z-index:2;font-size:13px}
+.section-return a{display:inline-flex;align-items:center;gap:10px;min-height:44px;text-decoration:none;color:var(--accent)}
+.section-return a:hover{text-decoration:underline;text-underline-offset:5px}
+.overview-icon{object-fit:contain;margin-bottom:8px}
+.about-editorial .v-content{padding-top:20px}
+.about-editorial .editorial-heading{position:relative;isolation:isolate;min-height:440px;align-items:center;margin:0 -2vw 30px;padding:50px 4vw;overflow:hidden}
+.about-editorial .editorial-heading::before{content:"";position:absolute;inset:0;z-index:-2;background:url('assets/hero-aivazovsky.webp') 70% 32%/cover no-repeat;opacity:.7;mask-image:linear-gradient(180deg,transparent,black 10%,black 70%,transparent)}
+.about-editorial .editorial-heading::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,var(--sea) 0%,transparent 85%),linear-gradient(0deg,var(--sea),transparent 25%)}
+[data-theme=light] .about-editorial .editorial-heading::before{opacity:.8;background-image:url('assets/hero-aivazovsky-light.webp')}
+.about-editorial .editorial-heading h1{font-size:clamp(4.5rem,10vw,9.5rem);font-weight:500}
+.editorial-wave{font:48px Georgia;color:var(--accent);margin-top:10px}
+.about-editorial .v-layout{display:block;max-width:1140px;margin:auto}
+.about-editorial .v-side{position:static;display:flex;flex-wrap:wrap;gap:6px 20px;border:0;border-block:1px solid var(--line);border-radius:0;padding:16px 0;margin-bottom:50px}
+.about-editorial .v-side a{padding:8px 0;font-size:13px}
+.about-editorial .review-panel{position:relative;display:grid;grid-template-columns:minmax(180px,.8fr) minmax(0,1.5fr);column-gap:7%;border:0;border-radius:0;padding:56px 0 64px;margin:0;background:transparent;box-shadow:none;scroll-margin-top:130px}
+.about-editorial .review-panel::after{content:"";position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--line),transparent)}
+.about-editorial .review-panel h2{grid-column:1;grid-row:2 / span 8;font:500 clamp(2rem,3.3vw,3.2rem)/1.08 var(--font-serif);letter-spacing:-.025em;margin:0;max-width:340px}
+.chapter-number{grid-column:1;color:var(--accent);font:italic 26px Georgia;display:block;margin-bottom:20px}
+.about-editorial .review-panel p,.about-editorial .review-panel ul,.about-editorial .review-panel .v-actions{grid-column:2;font-size:16px;line-height:1.95;margin-top:0;margin-bottom:22px;max-width:680px}
+.about-editorial .review-panel p:first-of-type{grid-row:2}
+.about-editorial .review-panel p:nth-of-type(2){grid-row:3}
+.about-editorial .review-panel p:nth-of-type(3){grid-row:4}
+.about-editorial .review-panel .v-actions{grid-row:5}
+.about-editorial #mother{background:radial-gradient(ellipse at 90% 50%,var(--wash),transparent 65%)}
+.about-editorial #people p{padding-bottom:22px;border-bottom:1px solid var(--line)}
+.about-editorial #people strong{display:block;color:var(--accent);font:500 26px/1.4 var(--font-serif);margin-bottom:8px}
+.about-editorial #rules ul{list-style:none;padding:0;grid-row:2}
+.about-editorial #rules li{padding:0 0 20px 24px;position:relative}
+.about-editorial #rules li::before{content:"✦";position:absolute;left:0;color:var(--accent);font-size:12px}
+.about-editorial .review-motto{font:italic 500 clamp(2.3rem,5vw,4.6rem)/1.2 var(--font-serif);color:var(--accent);padding:50px 24px 100px;background:radial-gradient(ellipse at center,var(--wash),transparent 65%)}
+.community-cover{max-width:1200px;margin:0 auto;padding:40px 24px 90px;text-align:center}
+.community-cover h2{color:var(--ink);font:500 clamp(2rem,4vw,3.5rem)/1.2 var(--font-serif);margin-bottom:30px}
+.cover-art{margin-bottom:28px}.cover-art img{display:block;width:100%;height:auto}.cover-art .cover-dawn{display:none}
+[data-theme=light] .cover-art .cover-sea{display:none}[data-theme=light] .cover-art .cover-dawn{display:block}
+@media(max-width:700px){.about-editorial .editorial-heading{min-height:330px;padding:30px 0}.about-editorial .editorial-heading::before{background-position:65% 50%}.about-editorial .editorial-heading::after{background:linear-gradient(90deg,var(--sea),transparent 90%),linear-gradient(0deg,var(--sea),transparent 40%)}.about-editorial .v-side{gap:0 18px;margin-bottom:20px}.about-editorial .review-panel{display:block;padding:36px 0}.about-editorial .review-panel h2{max-width:100%;margin-bottom:26px;font-size:2.3rem}.about-editorial .review-panel p,.about-editorial .review-panel ul{font-size:15px;line-height:1.85}.chapter-number{font-size:20px;margin-bottom:12px}.marine-page .v-heading h1{overflow-wrap:normal}.section-return{padding-top:12px}.marine-page .v-assistant{right:12px;bottom:12px}.marine-page main{padding-bottom:30px}}

@@ -1,0 +1,55 @@
+/* MAYAK / local Android review / 2026-11-08
+ * Only the two problems visible in the supplied video are addressed.
+ * No desktop, hero, animation, typography, menu-dialog or form redesign.
+ * This file is NOT published. Remove its link to roll back the local patch.
+ */
+@media (min-width: 320px) and (max-width: 430px) {
+  /* The brand must share the row with the existing two 44 px controls. */
+  .site-header .header-inner {
+    gap: 8px;
+  }
+
+  .site-header .header-inner > .logo-brand {
+    flex: 1 1 0%;
+    min-width: 0;
+    gap: 8px;
+  }
+
+  .site-header .brand-text {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .site-header .brand-text small {
+    white-space: normal;
+  }
+
+  .site-header .theme-toggle,
+  .site-header .nav-toggle {
+    flex: 0 0 44px;
+  }
+
+  /* On narrow screens each contact block receives the full content width. */
+  #svyaz .footer-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+  }
+
+  #svyaz .footer-brand,
+  #svyaz .footer-col,
+  #svyaz .footer-col:last-child {
+    grid-column: auto;
+    min-width: 0;
+  }
+
+  #svyaz .footer-col .footer-contact li {
+    /* The source fixes height at 24.8px !important, even when text wraps. */
+    height: auto !important;
+    min-height: 24.8px;
+    overflow-wrap: anywhere;
+  }
+
+  #svyaz .footer-col .footer-contact li a {
+    overflow-wrap: anywhere;
+  }
+}

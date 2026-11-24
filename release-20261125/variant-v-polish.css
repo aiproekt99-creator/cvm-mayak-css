@@ -1,0 +1,30 @@
+/* Variant V finishing pass: additional styles for the already-built internal pages.
+   Scoped to .v-page and v-prefixed components; approved homepage stays untouched. */
+.v-page .v-card{min-height:208px;padding:28px 30px;gap:12px}
+.v-page .v-card small{display:inline-flex;align-self:flex-start;align-items:center;gap:8px;padding:5px 10px;border:1px solid #a6832e66;border-radius:20px;background:#f1e8d6;color:#514426;font:600 12px/1.45 var(--font-sans)}
+.v-page .v-card h2,.v-page .v-card h3{color:#243660}
+.v-page .v-card p{color:#514b41}
+.v-page .v-card .v-card-action{color:#243660;font-weight:600}
+.v-page .v-card:hover .v-card-action{color:#365866}
+.v-page .v-panel{color:#243660}
+.v-page .v-panel p,.v-page .v-panel li{color:#37352f}
+.v-page .v-panel .v-note{color:#403b32;background:#f1e8d6;border-left-color:#a6832e;border-radius:0 8px 8px 0;padding:10px 14px}
+.v-page .v-side{background:linear-gradient(180deg,#f7f1e5,#ebe3d3);border-color:#a6832e88;box-shadow:0 6px 20px #0f1b3422}
+.v-page .v-side strong{color:#56451e}
+.v-page .v-side a{color:#243660}
+.v-page .v-side a:hover,.v-page .v-side a[aria-current=page]{background:#dfd1ae;color:#172844}
+.v-page .v-side .v-return{color:#365866}
+.v-page .v-heading img{width:108px;height:108px;object-fit:contain;border-radius:22px;background:radial-gradient(circle,#243660 57%,transparent 59%);box-shadow:0 0 0 1px #c9a96166,0 8px 22px #0f1b3433;image-rendering:auto}
+.v-page .v-approval{color:#514426!important;border-color:#a6832e88!important;background:#f1e8d6!important}
+.v-page .v-tag:not(.v-tag--existing){background:#f1e8d6;color:#514426;border-color:#a6832e88}
+.v-page .v-placeholder{color:#403b32;background:#f3ecde;border-color:#a6832e}
+.v-page .v-placeholder strong{color:#243660}
+.v-page .v-data dt{color:#514b41}
+.v-page .v-data dd{color:#292b31}
+.v-page .v-empty{color:#403b32;background:#f7f1e5}
+.v-page .v-crumbs a,.v-page .v-crumbs [aria-current=page]{color:var(--white-80)}
+.v-page .v-article-nav a{color:var(--link-on-navy)}
+.v-page .v-filter input,.v-page .v-filter select{color:#243660;background:#f7f1e5}
+@media(min-width:1360px){.v-page .v-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.v-page .v-card{min-height:220px}}
+@media(min-width:701px) and (max-width:1359px){.v-page .v-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}}
+@media(max-width:700px){.v-page .v-grid{grid-template-columns:minmax(0,1fr);gap:16px}.v-page .v-card{min-height:164px;padding:22px}.v-page .v-heading img{width:76px;height:76px;border-radius:16px}.v-page .v-panel .v-note{font-size:14px}.v-page .v-side{background:linear-gradient(180deg,#f7f1e5,#ebe3d3)}}

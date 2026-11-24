@@ -1,0 +1,27 @@
+/* Review additions: scoped to new content; homepage composition is preserved. */
+.review-main{background:#0f1b34;color:#eee7d8}
+.review-main .v-heading h1,.review-main h2,.review-main h3{color:#edce88}
+.review-main .v-panel{background:linear-gradient(135deg,#192c49,#111e35);border-color:#c9a96166;color:#eee7d8;box-shadow:none}
+.review-main .v-panel p,.review-main .v-panel li,.review-main .v-data dd{color:#eee7d8}
+.review-main .v-data dt,.review-main .v-eyebrow,.review-main a,.review-main .v-crumbs [aria-current]{color:#edce88}
+.review-main .v-side{background:#14243e;border-color:#c9a96166}
+.review-main .v-side a,.review-main .v-side strong{color:#edce88}
+.review-main .v-side a:hover{background:#c9a96122;color:#fff0cc}
+.review-main .v-note{color:#eee7d8}
+.review-main .v-button{background:#e2c17d;border-color:#e2c17d;color:#10213a}
+.review-main .v-button--outline{background:transparent;color:#edce88}
+.review-main section[id]{scroll-margin-top:150px}
+.review-pending{border-left:2px solid #c9a961;padding:12px 18px;line-height:1.8;color:#d9d1c2}
+.review-docs{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.review-docs>div{border:1px dashed #c9a96188;border-radius:14px;padding:20px}
+.review-docs h3{margin-top:0}
+.review-material{max-width:1100px;margin:0 auto 64px;width:calc(100% - 40px)}
+.review-material .review-rights{font-size:13px;line-height:1.7}
+.review-rays{max-width:900px;margin:0 auto 32px;text-align:center}
+.review-rays img{display:block;width:100%;height:auto}
+.review-rays figcaption{font-size:14px;line-height:1.7;color:#dfd4bd}
+.review-values{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px 32px;padding:24px 24px 24px 44px;border-block:1px solid #c9a96155;line-height:1.7}
+.review-main a:focus-visible{outline:3px solid #edce88;outline-offset:5px}
+@media(max-width:650px){.review-docs{grid-template-columns:1fr}.review-values{grid-template-columns:repeat(2,minmax(0,1fr));font-size:14px;gap:12px 24px}.review-main .v-panel{padding:22px}.review-rays{margin-inline:-12px}}
+
+.review-motto{text-align:center;color:#edce88;font:italic 500 clamp(2rem,5vw,3rem)/1.3 var(--font-serif);padding:0 24px 64px;margin:0}

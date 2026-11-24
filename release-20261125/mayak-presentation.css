@@ -1,0 +1,147 @@
+/*
+  MAYAK — isolated presentation correction for local preview only.
+  Original published Tilda site, index.html, legal documents and main.css stay unchanged.
+  All images below are ORIGINAL assets from the supplied archive.
+  Scope: internal .marine-page pages; never loaded on the approved homepage.
+*/
+:root { --mayak-cream:#f4ecdc; --mayak-cream-deep:#e8d6b5; --mayak-night:#111f35; --mayak-gold:#c8a568; --mayak-ink:#1e344a; }
+.marine-page{--sea:#101d31;--sea-soft:#192d42;--ink:#f4ebd9;--muted:#c2c6c2;--accent:#e1c38a;--line:#c8a56868;--sheet:#f4ecdc}
+.marine-page main,.marine-page .review-main{background:#101d31!important;color:#efe9db!important}
+.marine-page .v-content,
+.marine-page.about-watercolor .v-content{
+  background-color:#101d31!important;
+  background-image:linear-gradient(180deg,rgba(14,30,49,.91),rgba(14,30,49,.93) 60%,rgba(14,30,49,.98)),url('assets/hero-aivazovsky.webp')!important;
+  background-size:cover!important;
+  background-position:center top!important;
+  background-attachment:scroll!important;
+  color:#f2ebdd!important;
+  padding-top:clamp(38px,4.5vw,76px);
+  padding-bottom:clamp(64px,8vw,122px);
+}
+.marine-page .v-content .v-inner{max-width:1220px}
+.marine-page .v-heading{padding:0 0 26px;margin-bottom:20px;border-bottom:1px solid rgba(225,195,138,.30)}
+.marine-page .v-heading h1,
+.marine-page.about-watercolor .v-heading h1{font-family:var(--font-serif),Georgia,serif;color:#fbf4e6!important;font-size:72px;font-size:clamp(3.3rem,6.4vw,6.2rem);font-weight:500;letter-spacing:-.025em;line-height:1.06}
+.marine-page .v-heading img{height:100px;width:100px;border:1px solid rgba(223,195,139,.60);border-radius:50%;object-fit:cover;background:#172940;box-shadow:0 12px 32px rgba(0,0,0,.24)}
+.marine-page .v-crumbs{margin-bottom:35px!important;color:#dec696!important}
+.marine-page .v-crumbs a,.marine-page .v-crumbs [aria-current],
+.marine-page .v-eyebrow{color:#dec696!important}
+.marine-page .v-eyebrow{font-size:12px;letter-spacing:.15em}
+/* Return the original warm beige paper language to the internal page cards. */
+.marine-page .v-panel,.marine-page .review-main .v-panel,
+.marine-page.about-watercolor .v-panel,
+.marine-page .v-card{
+  color:#20364b!important;
+  background:linear-gradient(145deg,rgba(252,248,237,.97),rgba(237,225,202,.97))!important;
+  border:1px solid rgba(217,190,139,.78)!important;
+  border-radius:22px!important;
+  box-shadow:0 12px 34px rgba(1,15,29,.15)!important;
+}
+.marine-page .v-panel h2,.marine-page .v-panel h3,
+.marine-page .review-main .v-panel h2,
+.marine-page.about-watercolor .v-panel h2,
+.marine-page .v-card h2,.marine-page .v-card h3{
+  color:#223b55!important;font-family:var(--font-serif),Georgia,serif;
+}
+.marine-page .v-panel p,.marine-page .review-main .v-panel p,
+.marine-page.about-watercolor .v-panel p,
+.marine-page .v-panel li,.marine-page .review-main .v-panel li,
+.marine-page.about-watercolor .v-panel li,
+.marine-page .v-card p,.marine-page .v-card small,.marine-page .v-data dt,.marine-page .v-data dd,
+.marine-page .v-panel small{color:#36465a!important}
+.marine-page .v-panel strong,.marine-page .v-card strong{color:#20384e}
+.marine-page .v-panel a:not(.v-button),.marine-page .v-card a,
+.marine-page .review-main .v-panel a:not(.v-button){color:#385875!important}
+.marine-page .v-card{transition:transform .2s ease,box-shadow .2s ease}
+.marine-page .v-card:hover{transform:translateY(-3px);box-shadow:0 18px 38px rgba(2,17,32,.21)!important}
+.marine-page .v-card .v-card-action{color:#4a6580}
+.marine-page .v-card img.overview-icon{width:90px;height:90px;border:1px solid #c8a56888;border-radius:50%;object-fit:cover}
+.marine-page .v-side,
+.marine-page.about-watercolor .v-side{
+  background:linear-gradient(160deg,rgba(250,245,234,.98),rgba(232,215,180,.97))!important;
+  border:1px solid #c8a56899!important;
+  color:#23374e!important;
+  border-radius:19px!important;
+  box-shadow:0 10px 28px rgba(1,15,29,.15)!important;
+}
+.marine-page .v-side a,.marine-page .v-side strong,
+.marine-page.about-watercolor .v-side a,.marine-page.about-watercolor .v-side strong{
+  color:#223c55!important
+}
+.marine-page .v-side a:hover,.marine-page .v-side a[aria-current=page]{background:#c8a56830!important;color:#17354e!important}
+.marine-page .v-button,.marine-page .review-main .v-button{
+  color:#142a3f!important;background:#ddbc7d!important;border-color:#b99452!important;
+  font-weight:700;box-shadow:none
+}
+.marine-page .v-button:hover{background:#e9cd9d!important}
+.marine-page .v-button--outline{background:transparent!important;color:#24455e!important}
+.marine-page .v-panel .v-note{background:rgba(219,191,141,.23)!important;color:#20384c!important}
+/* Navigation, auxiliary text and editorial status outside parchment cards. */
+.marine-page .v-content>div .editorial-heading+p,
+.marine-page .v-inner>.editorial-heading+p{
+  display:inline-block;color:#dac9ac!important;font-size:12px;letter-spacing:.02em;
+  padding:7px 12px;margin:0 0 22px;border:1px solid rgba(222,198,150,.38);border-radius:30px;
+}
+.marine-page .v-body>p>small,.marine-page .v-inner>p>small{color:#dcc9aa}
+.marine-page .section-return a,.marine-page .v-content .v-crumbs a{color:#dec696!important}
+.marine-page .v-content .section-return{border-color:#d8ba7e}
+.marine-page .v-content .v-panel li::marker{color:#bc9655}
+.marine-page .v-review-launcher{display:none!important}
+.marine-page .v-strip{display:none}
+.marine-page .v-assistant{background:#132742;border:1px solid #c8a568;color:#efce8b}
+/* Philosophy is one coherent illuminated artwork, not an isolated giant image and plain list. */
+.marine-page .rays-editorial{
+  margin:20px 0 44px;padding:clamp(24px,4.2vw,56px);
+  background:radial-gradient(ellipse at 30% 18%,rgba(151,117,62,.21),transparent 56%),linear-gradient(155deg,#192e47,#0c192b)!important;
+  border:1px solid rgba(209,173,113,.55);border-radius:26px;
+  box-shadow:0 22px 60px rgba(0,0,0,.20);color:#f0e6d6;
+}
+.marine-page .rays-editorial .rays-intro{background:none!important;border:0!important;border-radius:0!important;box-shadow:none!important;padding:0 0 25px!important;margin:0!important}
+.marine-page .rays-editorial .rays-intro h2{font:500 56px/1.1 Georgia,serif;font:500 clamp(2.6rem,4.5vw,4.4rem)/1.1 var(--font-serif),Georgia,serif;color:#f7e6c1!important;margin-bottom:12px}
+.marine-page .rays-editorial .rays-intro p{color:#dfd4bf!important;font-size:17px;margin:0}
+.rays-composition{display:grid;grid-template-columns:minmax(0,1.03fr) minmax(300px,.97fr);gap:clamp(20px,4vw,54px);align-items:center}
+.rays-editorial .rays-art{min-width:0}
+.rays-editorial .review-rays{max-width:none;margin:0;text-align:center}
+.rays-editorial .review-rays img{display:block;width:100%;height:auto;max-height:610px;object-fit:contain;border-radius:14px;border:1px solid rgba(207,177,118,.47);box-shadow:0 15px 44px #0005}
+.rays-editorial .review-rays figcaption{padding:14px 4px 0;color:#c3b69d!important;font-size:12px;line-height:1.5}
+.rays-editorial .review-rays figcaption a{color:#d6b979!important}
+.rays-editorial .rays-values-pane{min-width:0}
+.rays-editorial .rays-values-heading{color:#e7c98d!important;font-size:12px;letter-spacing:.18em;text-transform:uppercase;margin:0 0 18px}
+.rays-editorial .review-values{counter-reset:rays;list-style:none!important;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px!important;border:0!important;margin:0;padding:0!important}
+.rays-editorial .review-values li{counter-increment:rays;display:flex;gap:10px;align-items:baseline;min-height:64px;padding:14px 13px;line-height:1.4;color:#23394f!important;background:#f3e5ca;border:1px solid #dec39487;border-radius:11px;font-size:14px;overflow-wrap:anywhere}
+.rays-editorial .review-values li::before{content:counter(rays,decimal-leading-zero);font:600 11px/1.4 var(--font-sans),sans-serif;color:#946b32;flex-shrink:0}
+/* Restore composed light mode: ivory-and-blue rather than an orange sunset. */
+html[data-theme=light] .marine-page{--sea:#f5efe2;--sea-soft:#ebe6dc;--ink:#1f3951;--muted:#4f6271;--accent:#98723d;--line:#b99d705c;--sheet:#f7f0e2}
+html[data-theme=light] .marine-page main,
+html[data-theme=light] .marine-page .review-main{background:#f5efe2!important;color:#20384e!important}
+html[data-theme=light] .marine-page .v-content,
+html[data-theme=light] .marine-page.about-watercolor .v-content{
+  background-color:#f5efe2!important;
+  background-image:linear-gradient(180deg,rgba(248,244,234,.87),rgba(247,242,232,.92) 60%,rgba(245,239,226,.97)),url('assets/hero-aivazovsky.webp')!important;
+  color:#20384e!important;
+}
+html[data-theme=light] .marine-page .v-heading h1,
+html[data-theme=light] .marine-page.about-watercolor .v-heading h1{color:#1c3b54!important}
+html[data-theme=light] .marine-page .v-eyebrow,
+html[data-theme=light] .marine-page .v-crumbs a,
+html[data-theme=light] .marine-page .v-crumbs [aria-current]{color:#7c623b!important}
+html[data-theme=light] .marine-page .v-heading{border-bottom-color:#c8ac7b66}
+html[data-theme=light] .marine-page .v-body>p>small,
+html[data-theme=light] .marine-page .v-inner>p>small{color:#576b77}
+html[data-theme=light] .marine-page .v-inner>.editorial-heading+p{color:#6a593f!important;border-color:#bba67977}
+html[data-theme=light] .marine-page .section-return a{color:#765d35!important}
+html[data-theme=light] .marine-page .rays-editorial{background:linear-gradient(145deg,#1b3048,#112139)!important}
+@media(max-width:920px){.rays-composition{grid-template-columns:1fr}.rays-editorial .review-rays img{max-height:480px}.rays-editorial .rays-values-pane{max-width:700px;width:100%;margin:auto}}
+@media(max-width:650px){
+ .marine-page .v-content{padding:28px 18px 74px!important}
+ .marine-page .v-heading h1{font-size:clamp(2.8rem,12vw,4.3rem)!important}
+ .marine-page .v-heading img{width:76px;height:76px}
+ .marine-page .v-side{position:static;display:flex;flex-wrap:wrap;gap:4px;padding:9px!important}
+ .marine-page .v-side a{padding:10px 12px}
+ .marine-page .v-panel{padding:23px!important}
+ .marine-page .v-grid{gap:15px}
+ .marine-page .rays-editorial{padding:20px;border-radius:17px}
+ .rays-editorial .review-values{grid-template-columns:1fr}
+ .rays-editorial .review-values li{min-height:52px}
+}
+@media(prefers-reduced-motion:reduce){.marine-page .v-card{transition:none}.marine-page .v-card:hover{transform:none}}
