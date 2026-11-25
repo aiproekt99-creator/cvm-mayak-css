@@ -74,3 +74,42 @@ html[data-theme=light] .marine-page .v-content .mayak-fast-nav a {background:#f7
 .mayak-guidance-intro p,.mayak-guidance-note p{font:400 .92rem/1.75 'Manrope',sans-serif;color:#34485c}
 .mayak-guidance-intro a,.mayak-guidance-note a,.mayak-support-section a:not(.v-button){color:#1b4567;text-decoration:underline;text-underline-offset:3px}
 @media(max-width:700px){.mayak-support-section .mayak-help-grid{grid-template-columns:1fr}.mayak-support-section{margin:14px 0}.mayak-help-teaser{margin:24px 0 8px}.mayak-help-teaser h2{font-size:2rem}}
+
+
+/* MAYAK_IMPERIAL_INTERNAL_20261125
+   Light theme only. Internal marine pages only. No hero, layout or image changes. */
+html[data-theme="light"] body.marine-page main#main-content {
+  background-color: #E6A052 !important;
+}
+html[data-theme="light"] body.marine-page #main-content .v-content,
+html[data-theme="light"] body.marine-page main#main-content.v-content {
+  background-color: #E6A052 !important;
+  background-image: linear-gradient(180deg,
+    rgba(247,213,164,.88) 0%,
+    rgba(230,160,82,.88) 52%,
+    rgba(204,134,64,.90) 100%),
+    url("assets/hero-aivazovsky.webp") !important;
+}
+html[data-theme="light"] body.marine-page #main-content .v-crumbs a,
+html[data-theme="light"] body.marine-page #main-content .v-crumbs [aria-current],
+html[data-theme="light"] body.marine-page #main-content .v-eyebrow,
+html[data-theme="light"] body.marine-page #main-content .section-return a {
+  color: #49301F !important;
+}
+html[data-theme="light"] body.marine-page footer {
+  --accent: #63411F;
+  background: linear-gradient(180deg,#F7D5A4,#E6A052) !important;
+}
+html[data-theme="light"] body.marine-page footer .footer-col a,
+html[data-theme="light"] body.marine-page footer .footer-col h4,
+html[data-theme="light"] body.marine-page footer .footer-contact a,
+html[data-theme="light"] body.marine-page footer .privacy-mini a,
+html[data-theme="light"] body.marine-page footer .site-credits,
+html[data-theme="light"] body.marine-page footer .site-credits a {
+  color: #49301F !important;
+  text-shadow: none !important;
+}
+html[data-theme="light"] body.marine-page footer .footer-bottom {
+  color: #49301F !important;
+  border-top-color: rgba(73,48,31,.25) !important;
+}
