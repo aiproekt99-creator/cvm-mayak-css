@@ -1,0 +1,98 @@
+
+/* Only migrated Mayak headers; never alter search panel styling. */
+@media(min-width:1200px){
+html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature .site-header .header-inner{display:grid!important;grid-template-columns:minmax(0,1fr) auto auto!important;grid-template-rows:auto!important;align-items:center!important;column-gap:clamp(12px,1.5vw,24px)!important;row-gap:0!important;flex-wrap:nowrap!important;}
+html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature .site-header .header-inner>.logo-brand{grid-column:1;grid-row:1;min-width:0!important;max-width:100%!important;}
+html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature .site-header .header-inner>.main-nav{grid-column:2;grid-row:1;min-width:0!important;gap:clamp(12px,1.5vw,26px)!important;}
+html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature .site-header .header-inner>.mayak-signature-tools{grid-column:3;grid-row:1;display:flex!important;align-items:center!important;justify-content:flex-end!important;flex-wrap:nowrap!important;gap:clamp(8px,1vw,16px)!important;min-width:0!important;}
+html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature .site-header .mayak-signature-tools>.mayak-search-button{order:-1;}
+}
+html.mayak-review-on[data-theme="light"] body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"] .site-header .logo-brand .brand-text small,
+html.mayak-review-on[data-theme="light"] body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"] .site-header .logo-brand .brand-text small span{color:#79695d!important;font-weight:400!important;opacity:1!important;letter-spacing:.015em!important;text-shadow:none!important;}
+@media(max-width:767px){
+html.mayak-review-on[data-theme="light"] body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"][data-tilda-page-id="415120609"] .hero .hero-copy .hero-ctas a.btn-secondary-outline[href="/about"]{border:1px solid #b89b7e!important;background:transparent!important;color:#79583e!important;font-weight:500!important;box-shadow:none!important;text-shadow:none!important;min-height:44px!important;}
+html.mayak-review-on[data-theme="light"] body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"][data-tilda-page-id="415120609"] .hero .hero-copy .hero-ctas a.btn-secondary-outline[href="/about"]::before,
+html.mayak-review-on[data-theme="light"] body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"][data-tilda-page-id="415120609"] .hero .hero-copy .hero-ctas a.btn-secondary-outline[href="/about"]::after{box-shadow:none!important;}
+html.mayak-review-on[data-theme="light"] body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"][data-tilda-page-id="415120609"] .hero .hero-copy .hero-ctas a.btn-secondary-outline[href="/about"]:focus-visible{outline:2px solid #79583e!important;outline-offset:3px!important;}
+}
+
+/* RC19: header-only polish. No generic content geometry rules. */
+html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature .site-header :is(.mayak-signature-tools,.mq-v8-tools)>.mayak-search-button{order:0!important;}
+html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature .site-header :is(.mayak-signature-tools,.mq-v8-tools)>.theme-toggle{order:1!important;}
+html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature .site-header :is(.mayak-signature-tools,.mq-v8-tools)>.header-cta{order:2!important;}
+html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature .site-header :is(.mayak-signature-tools,.mq-v8-tools)>.nav-toggle{order:3!important;}
+html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature .site-header .logo-brand .brand-text small{font-weight:400!important;line-height:1.28!important;}
+html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature .site-header .header-inner > .mayak-signature-tools > .header-cta{background:transparent!important;border:1px solid var(--mayak-header-accent)!important;color:var(--mayak-header-accent)!important;box-shadow:none!important;}
+@media(min-width:1200px){
+html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature .site-header .header-inner{padding:12px clamp(24px,4vw,58px)!important;min-height:88px!important;}
+html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature .site-header .logo-mark{width:60px!important;height:60px!important;flex:0 0 60px!important;}
+html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature .site-header .logo-mark img{width:100%!important;height:100%!important;object-fit:contain!important;}
+}
+@media(max-width:1199px){
+html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature .site-header .header-inner > .mayak-signature-tools>.header-cta{display:none!important;}
+}
+html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature #main-content .mq19-duplicate-label[hidden]{display:none!important;}
+html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature[data-tilda-page-alias="support"] #main-content .mq19-eyebrow{font-size:12px!important;font-weight:500!important;letter-spacing:.075em!important;color:#756050!important;}
+html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature[data-tilda-page-alias="support"] #main-content .mq19-intro{background:rgba(250,239,219,.92)!important;border:0!important;box-shadow:none!important;border-radius:6px!important;padding:7px 11px!important;line-height:1.6!important;color:#49352c!important;}
+html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature[data-tilda-page-alias="support"] #main-content .mq19-intro :is(p,span){color:inherit!important;}
+html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature[data-tilda-page-alias="support"] #main-content .mq19-phone{font-variant-numeric:tabular-nums;}
+@media(max-width:767px){
+html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature[data-tilda-page-alias="support"] #main-content [id]{scroll-margin-top:calc(var(--header-h,70px) + 12px)!important;}
+}
+html.mayak-review-on:not([data-theme="light"]) body #allrecords#allrecords[data-tilda-project-id="44433709"]:is([data-tilda-page-alias="events"],[data-tilda-page-alias="events-past"],[data-tilda-page-alias="events-upcoming"]) #main-content .v-tabs a{color:#f0e8d9!important;background:#182b40!important;border:1px solid #8e7956!important;}
+html.mayak-review-on:not([data-theme="light"]) body #allrecords#allrecords[data-tilda-project-id="44433709"]:is([data-tilda-page-alias="events"],[data-tilda-page-alias="events-past"],[data-tilda-page-alias="events-upcoming"]) #main-content .v-tabs a:is([aria-current="page"],.mq-rc2-current){background:#e9d8b7!important;color:#243247!important;border-color:#e9d8b7!important;}
+
+/* RC19.1: balanced navigation at wide widths; do not compress desktop controls at 1200px. */
+@media(min-width:1360px){
+html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature .site-header .header-inner{grid-template-columns:minmax(0,1fr) auto minmax(300px,1fr)!important;}
+html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature .site-header .header-inner>.main-nav{justify-content:center!important;}
+}
+/* Support: local contrast, no solid cream card for the lead text. */
+html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature[data-tilda-page-alias="support"] #main-content p.support-intro.mq19-intro{background:linear-gradient(90deg,rgba(16,25,39,.82),rgba(16,25,39,.68))!important;border:0!important;border-radius:3px!important;padding:4px 10px!important;box-shadow:none!important;color:#fff3e3!important;font-weight:400!important;text-shadow:none!important;line-height:1.65!important;}
+@media(max-width:767px){
+html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature[data-tilda-page-alias="support"] #main-content p.support-intro.mq19-intro{background:transparent!important;padding:0!important;color:#eee6d7!important;text-shadow:0 1px 4px #101d30!important;}
+html.mayak-review-on[data-theme="light"] body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature[data-tilda-page-alias="support"] #main-content p.support-intro.mq19-intro{color:#49352c!important;text-shadow:none!important;}
+}
+/* Keep emergency contacts free of consent overlays, preserve existing consent control. */
+html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #cookie-banner.mq191-inline:not([hidden]){position:static!important;inset:auto!important;transform:none!important;width:100%!important;max-width:100%!important;margin:16px 0 22px!important;max-height:none!important;overflow:visible!important;z-index:auto!important;box-shadow:none!important;}
+html.mayak-review-on.mq-v10-cookie-open body #allrecords[data-tilda-project-id="44433709"].mq191-cookie-inline.mq-v10-cookie-collision [data-v-ogonek]{bottom:max(18px,env(safe-area-inset-bottom),var(--mq-v9-helper-bottom,12px))!important;}
+
+/* RC19.2: map only. Hide the redundant shortcut and single unrelated quick link. */
+html.mayak-review-on body #allrecords#allrecords[data-tilda-project-id="44433709"][data-tilda-page-id="418820809"] #main-content .mq192-map-redundant[hidden]{display:none!important;}
+/* Compact original lantern on migrated pages, mobile only. Preserve dialog and collision rules. */
+@media(max-width:767px){
+html.mayak-review-on body #allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature button[data-v-ogonek]:has(>img.mayak-review-og-image){box-sizing:border-box!important;width:48px!important;height:48px!important;min-width:48px!important;min-height:48px!important;max-width:48px!important;padding:4px!important;gap:0!important;border-radius:50%!important;}
+html.mayak-review-on body #allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature button[data-v-ogonek]:has(>img.mayak-review-og-image)>.mq-v7-og-label{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;overflow:hidden!important;clip-path:inset(50%)!important;white-space:nowrap!important;}
+}
+
+/* RC19.3 — support editorial hierarchy: exact existing section labels only. */
+html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature[data-tilda-page-alias="support"] #main-content .mayak-support-section > .mayak-section-eyebrow.mq193-eyebrow {font-size:12px!important;font-weight:500!important;letter-spacing:.075em!important;line-height:1.4!important;color:#756050!important;text-shadow:none!important;}
+/* RC19.4: quiet brand lockup; preserve original typography and header dimensions. */
+html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature .site-header .logo-brand {align-items:center!important;}
+html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature .site-header .logo-brand .brand-text {line-height:1.05!important;align-self:center!important;}
+html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature .site-header .logo-brand .brand-text small {margin-top:3px!important;line-height:1.16!important;}
+html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature .site-header :is(.theme-toggle,.mayak-search-button,.nav-toggle):focus-visible {outline:2px solid var(--mayak-header-accent,#B99557)!important;outline-offset:2px!important;box-shadow:none!important;}
+/* Support: seamless local shading on artwork, never a hard-edged rectangular card. */
+html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature[data-tilda-page-alias="support"] #main-content p.support-intro.mq19-intro {position:relative!important;isolation:isolate;background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important;padding:0!important;color:#fff6e9!important;text-shadow:0 1px 3px #101928,0 0 12px #101928!important;}
+@media(min-width:768px){
+ html.mayak-review-on body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature[data-tilda-page-alias="support"] #main-content p.support-intro.mq19-intro::before {content:"";position:absolute;inset:-12px -24px;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at center,rgba(18,21,30,.76) 0%,rgba(18,21,30,.62) 52%,transparent 78%);}
+}
+@media(max-width:767px){
+ html.mayak-review-on[data-theme="light"] body #allrecords#allrecords#allrecords[data-tilda-project-id="44433709"].mayak-signature[data-tilda-page-alias="support"] #main-content p.support-intro.mq19-intro {color:#49352c!important;text-shadow:none!important;}
+}
+/* Thin scroll sign, over existing bottom edge of panorama; no new layout space. */
+html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mq193-thread {display:none!important;}
+@media(max-width:767px){
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mq193-thread {display:flex!important;position:absolute!important;left:50%!important;bottom:3px!important;top:auto!important;transform:translateX(-50%)!important;align-items:center;justify-content:center;box-sizing:border-box;width:44px!important;height:44px!important;padding:0!important;margin:0!important;background:transparent!important;border:0!important;box-shadow:none!important;color:#dbc18b!important;z-index:7!important;pointer-events:auto!important;cursor:pointer;}
+ html.mayak-review-on[data-theme="light"] body #allrecords[data-tilda-project-id="44433709"] #main-content .mq193-thread {color:#79583e!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mq193-thread svg {width:16px;height:26px;pointer-events:none;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mq193-thread.mq193-quiet:not(:focus-visible) {opacity:0!important;visibility:hidden!important;pointer-events:none!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mq193-thread:focus-visible {outline:2px solid currentColor!important;outline-offset:1px!important;}
+}
+@media(prefers-reduced-motion:no-preference){.mq193-thread .mq193-ray {animation:mq194-ray 3.8s ease-in-out infinite;} @keyframes mq194-ray {0%,100%{opacity:.65}50%{opacity:1}}}
+/* Native cross-document reveal, no artificial wait, no interception. */
+html.mayak-review-on::view-transition-new(root) {animation:mq194-editorial-enter 480ms cubic-bezier(.4,0,.2,1) both!important;mix-blend-mode:normal!important;}
+@keyframes mq194-editorial-enter {from{clip-path:inset(0 0 100% 0)}to{clip-path:inset(0 0 0 0)}}
+@media(prefers-reduced-motion:reduce){html.mayak-review-on::view-transition-new(root){animation:none!important;}}
+
+@media(max-width:767px){html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content :is(.hero,.mayak-v3-art){position:relative!important;}}
