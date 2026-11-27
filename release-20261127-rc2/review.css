@@ -1,0 +1,470 @@
+html.mayak-review-on #allrecords.mayak-signature .v-assistant[data-v-ogonek]{gap:7px!important;padding:8px 13px!important;min-height:44px!important;box-shadow:0 3px 12px #0002!important;}
+html.mayak-review-on #allrecords.mayak-signature .v-assistant[data-v-ogonek] svg{width:23px!important;height:23px!important;flex:none;}
+html.mayak-review-on #allrecords .mayak-review-og-image{height:30px!important;width:20px!important;object-fit:contain!important;flex:none!important;}
+html.mayak-review-on #allrecords #v-ogonek .mayak-review-og-image{height:44px!important;width:28px!important;}
+@media (max-width:767px){html.mayak-review-on #allrecords.mayak-signature .v-assistant[data-v-ogonek]{max-width:calc(100vw - 28px)!important;right:max(12px,env(safe-area-inset-right))!important;bottom:max(12px,env(safe-area-inset-bottom))!important;}}
+html[data-mayak-icon="line"] #allrecords .mayak-v2-icon{width:25px!important;height:28px!important;flex:none!important;}
+html[data-mayak-icon="first"] #allrecords .mayak-review-og-image{width:24px!important;height:35px!important;object-fit:contain!important;flex:none!important;}
+html[data-mayak-icon="first"] #allrecords #v-ogonek .mayak-review-og-image{width:31px!important;height:46px!important;}
+html[data-mayak-icon="line"] #allrecords #v-ogonek .mayak-v2-icon{width:32px!important;height:38px!important;}
+html[data-mayak-icon="line"] #allrecords [data-v-ogonek],html[data-mayak-icon="first"] #allrecords [data-v-ogonek]{display:inline-flex!important;align-items:center!important;gap:7px!important;min-height:44px!important;padding:6px 13px!important;box-shadow:0 2px 9px #0002!important;}
+html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] [data-v-ogonek]{position:fixed!important;inset:auto max(18px,env(safe-area-inset-right)) max(18px,env(safe-area-inset-bottom)) auto!important;z-index:1600!important;display:inline-flex!important;align-items:center!important;justify-content:center!important;gap:8px!important;visibility:visible!important;opacity:1!important;min-height:44px!important;width:auto!important;max-width:calc(100vw - 28px)!important;padding:7px 13px!important;border-radius:999px!important;color:#dfc28d!important;background:#15263b!important;border:1px solid #a28c64!important;font:500 14px/1.3 Manrope,Arial,sans-serif!important;cursor:pointer!important;}
+html.mayak-review-on[data-theme="light"] #allrecords[data-tilda-project-id="44433709"] [data-v-ogonek]{color:#754c2a!important;background:#fff1df!important;border-color:#b39471!important;}
+html.mayak-review-on #allrecords[data-tilda-page-id="415120609"] [data-v-ogonek]{right:max(76px,env(safe-area-inset-right))!important;}
+@media (max-width:767px){html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] [data-v-ogonek]{right:max(12px,env(safe-area-inset-right))!important;bottom:max(14px,env(safe-area-inset-bottom))!important;}}
+html:not(.mayak-review-on) .mayak-v3-created{display:none!important;}
+html.mayak-review-on #allrecords #v-ogonek.mayak-v3-created:not([open]){display:none!important;}
+html.mayak-review-on #allrecords #v-ogonek.mayak-v3-created[open]{position:fixed!important;inset:0!important;margin:auto!important;width:min(480px,calc(100vw - 32px))!important;max-height:calc(100dvh - 32px)!important;overflow:auto!important;box-sizing:border-box!important;background:#15263b!important;color:#f1e9da!important;border:1px solid #a28c64!important;border-radius:20px!important;padding:22px!important;}
+html.mayak-review-on[data-theme="light"] #allrecords #v-ogonek.mayak-v3-created[open]{background:#fcf2e3!important;color:#49352c!important;}
+html.mayak-review-on #allrecords #v-ogonek.mayak-v3-created::backdrop{background:#081321a0;}
+html.mayak-review-on #allrecords #v-ogonek.mayak-v3-created :is(h2,p,a,small,strong,button){color:inherit!important;}
+html.mayak-review-on #allrecords #v-ogonek.mayak-v3-created .mayak-og-top{display:flex;align-items:center;gap:10px;}
+html.mayak-review-on #allrecords #v-ogonek.mayak-v3-created .mayak-og-top h2{font:500 32px/1.1 "Cormorant Garamond",Georgia,serif;margin:0;}
+html.mayak-review-on #allrecords #v-ogonek.mayak-v3-created [data-v-close-ogonek]{margin-left:auto;min-width:44px;min-height:44px;border:1px solid currentColor;border-radius:50%;background:transparent;}
+html.mayak-review-on #allrecords #v-ogonek.mayak-v3-created .mayak-og-choices{display:grid;gap:6px;}
+html.mayak-review-on #allrecords #v-ogonek.mayak-v3-created .mayak-og-choices a{display:grid;gap:3px;padding:10px;border:1px solid #a28c6480;border-radius:9px;text-decoration:none;}
+html.mayak-review-on #allrecords #v-ogonek.mayak-v3-created .mayak-og-human{display:block;padding:12px 0;}
+/* V4: one artwork layer; never scale by document height. Preserve source asset URLs. */
+html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"]:not([data-tilda-page-id="415120609"]) #main-content .v-content.mayak-v3-art {position:relative!important;isolation:isolate!important;background:transparent!important;overflow:visible!important;}
+html.mayak-review-on:is([data-theme="light"],:not([data-theme="light"])) body.marine-page.mayak-unified-interior #allrecords[data-tilda-project-id="44433709"]:not([data-tilda-page-id="415120609"]) #main-content .v-content.mayak-v3-art {background:transparent!important;}
+.mayak-v3-backdrop,.mayak-v3-window{display:none;}
+html.mayak-review-on #allrecords .mayak-v3-art>.mayak-v3-backdrop {display:block!important;position:fixed!important;top:var(--mq-header,90px)!important;right:0!important;bottom:0!important;left:0!important;z-index:-1!important;pointer-events:none!important;background-color:#101d30!important;background-image:url('https://aiproekt99-creator.github.io/cvm-mayak-css/release-20261125/assets/hero-aivazovsky.webp')!important;background-position:right top!important;background-size:cover!important;background-repeat:no-repeat!important;}
+html.mayak-review-on[data-theme="light"] #allrecords .mayak-v3-art>.mayak-v3-backdrop {background-color:#f4dec8!important;background-image:url('https://aiproekt99-creator.github.io/cvm-mayak-css/release-20261125/assets/hero-aivazovsky-light.webp')!important;}
+/* No full-width title bars. A quiet localized ink shadow on the painting only. */
+html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art :is(.v-heading,.v-crumbs,.v-article-nav) {background:transparent!important;box-shadow:none!important;border-radius:0!important;}
+html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art :is(.v-heading,.v-crumbs) :is(h1,p,a,span,small) {color:#fff5e4!important;text-shadow:0 1px 2px #122032,0 2px 9px #122032,0 0 16px #122032!important;}
+html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-heading {width:fit-content!important;max-width:100%!important;}
+/* The support layout has no sidebar: treat it separately, not as a two-column sidebar layout. */
+@media(min-width:1100px){
+ html.mayak-review-on #allrecords[data-tilda-project-id="44433709"]:not([data-tilda-page-id="418810009"]) #main-content .v-layout.mayak-review-narrow {max-width:min(100%,1060px,70vw)!important;margin-inline:0 auto!important;grid-template-columns:minmax(150px,.7fr) minmax(0,2.4fr)!important;gap:clamp(16px,1.8vw,26px)!important;box-sizing:border-box!important;}
+ html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .support-compact-layout.mayak-v4-support {display:block!important;width:min(100%,1000px,69vw)!important;max-width:100%!important;margin-inline:0 auto!important;box-sizing:border-box!important;}
+ html.mayak-review-on #allrecords[data-tilda-project-id="44433709"]:not([data-tilda-page-id="418810009"]) #main-content .v-inner>.review-panel.mayak-review-narrow {width:min(100%,900px,66vw)!important;max-width:100%!important;margin-inline:0 auto!important;}
+}
+html.mayak-review-on #allrecords .mayak-review-narrow .v-body,html.mayak-review-on #allrecords .mayak-v4-support .v-body{min-width:0!important;overflow-wrap:break-word;}
+/* Readable paper cards in both themes. Do not recolor links/buttons in branded CTAs. */
+html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art :is(.v-panel,.v-card,.review-panel,.v-side,.v-profile,.v-data,.v-table-wrap) :is(p,li,dt,dd,small,h2,h3,h4){color:#302b29!important;}
+html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art :is(.support-intro,.mayak-review-note) {display:block;width:fit-content;max-width:100%;box-sizing:border-box;background:#fbefdc!important;color:#3b3029!important;padding:9px 13px!important;border-radius:6px!important;line-height:1.55!important;}
+html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art :is(.support-intro,.mayak-review-note) :is(p,a,span,small){color:#3b3029!important;}
+/* Search: light result rows in both themes, dark readable ink. */
+html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] .mayak-search-panel .mayak-search-results li {background:#f8f0e3!important;color:#26354a!important;border:0!important;border-radius:7px!important;margin:3px 0!important;}
+html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] .mayak-search-panel .mayak-search-results :is(a,span,strong,small){color:#26354a!important;}
+html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] .mayak-search-panel .mayak-search-results a {background:transparent!important;min-height:44px!important;padding:11px 12px!important;box-sizing:border-box!important;border:0!important;line-height:1.4!important;}
+html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] .mayak-search-panel .mayak-search-results a:is(:hover,:focus-visible){background:#eadbc2!important;outline-offset:-2px;}
+html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] .mayak-search-panel input::placeholder {color:inherit!important;opacity:.85!important;}
+/* Original rope geometry, SVG and events untouched. */
+html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] .rope-pull::after {content:"Потяни"!important;position:absolute!important;right:100%!important;left:auto!important;top:auto!important;bottom:8px!important;white-space:nowrap;padding:2px 7px!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;font:500 17px/1.3 'Cormorant Garamond',Georgia,serif!important;letter-spacing:.04em;color:#fff0d5!important;text-shadow:0 1px 4px #081a30,0 0 8px #081a30!important;opacity:0!important;transition:opacity .18s;pointer-events:none;transform:none!important;}
+html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] .rope-pull:is(:hover,:focus-visible)::after{opacity:1!important;}
+/* Restore the approved desktop homepage colors: no overrides for its text or painting. */
+/* Mobile: show original lighthouse art above text; retain theme-specific picture display. */
+@media(max-width:767px){
+ html.mayak-review-on #allrecords[data-tilda-project-id="44433709"][data-tilda-page-id="415120609"] .hero{display:block!important;min-height:0!important;height:auto!important;padding-top:0!important;}
+ html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] .hero .hero-bg-lighthouse{display:block!important;position:relative!important;inset:auto!important;width:100%!important;height:clamp(235px,43svh,350px)!important;transform:none!important;overflow:hidden!important;}
+ html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] .hero .hero-bg-lighthouse picture{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;}
+ html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] .hero .hero-bg-lighthouse img{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;object-fit:cover!important;object-position:right top!important;transform:none!important;}
+ html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] .hero .hero-inner{min-height:0!important;height:auto!important;margin:0!important;padding:24px 20px 36px!important;box-sizing:border-box;position:relative!important;background:#101d30!important;}
+ html.mayak-review-on[data-theme="light"] #allrecords[data-tilda-project-id="44433709"] .hero .hero-inner{background:#fceedd!important;}
+ html.mayak-review-on[data-theme="light"] #allrecords[data-tilda-project-id="44433709"] .hero .hero-copy :is(h1,.hero-eyebrow,.hero-motto,.subhead,.hero-disclaimer){color:#382d25!important;text-shadow:none!important;opacity:1!important;}
+ html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] .hero :is(.hero-veil,.lamp-glow,.hero-stars,.hero-stars-svg,.shooting-star){display:none!important;}
+ html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] .hero .hero-copy{width:100%!important;max-width:100%!important;transform:none!important;margin:0!important;}
+ html.mayak-review-on #allrecords .mayak-v3-art>.mayak-v3-backdrop{background-position:right top!important;background-size:cover!important;}
+ html.mayak-review-on #allrecords .mayak-v3-art>.mayak-v3-window{display:block;height:clamp(180px,34svh,280px);pointer-events:none;}
+ html.mayak-review-on #allrecords .mayak-v3-art :is(.v-layout,.v-body,.v-inner,.review-panel,.support-compact-layout){min-width:0!important;max-width:100%!important;box-sizing:border-box!important;}
+ html.mayak-review-on #allrecords .mayak-v3-art :is(.support-choice-grid,.support-line-grid){grid-template-columns:minmax(0,1fr)!important;}
+}
+/* Compact persistent helper: let icon and label be recognizable; preserve native click. */
+html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] [data-v-ogonek]{position:fixed!important;z-index:1600!important;min-height:44px!important;box-shadow:0 2px 8px #0002!important;}
+@media(max-width:767px){html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] [data-v-ogonek]{inset:auto max(12px,env(safe-area-inset-right)) max(12px,env(safe-area-inset-bottom)) auto!important;}}
+@media(prefers-reduced-motion:reduce){html.mayak-review-on #allrecords .rope-pull::after{transition:none!important;}}
+
+/* V5: the artwork boundary is relative to the viewport, not the centered content. */
+html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-inner{
+ box-sizing:border-box!important;min-width:0!important;
+}
+@media(min-width:901px){
+ html.mayak-review-on #allrecords[data-tilda-project-id="44433709"]:not([data-tilda-page-id="415120609"]) #main-content .mayak-v3-art .v-inner{
+   width:100%!important;max-width:none!important;margin-inline:0!important;
+   padding-left:clamp(24px,8.5vw,150px)!important;padding-right:31vw!important;
+ }
+ html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-inner > :is(.v-layout,.review-panel,.v-panel,.v-grid,.v-heading,.v-crumbs,.support-compact-layout){
+   box-sizing:border-box!important;width:100%!important;max-width:100%!important;margin-inline:0!important;min-width:0!important;
+ }
+ html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-inner > .v-layout:has(>.v-side):has(>.v-body){
+   display:grid!important;grid-template-columns:minmax(150px,190px) minmax(0,1fr)!important;gap:clamp(14px,1.5vw,24px)!important;
+ }
+ html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-inner > .v-layout:not(:has(>.v-side)) {display:block!important;}
+ html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-side {min-width:0!important;max-width:100%!important;}
+}
+@media (min-width:901px) and (max-width:1199px){
+ html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-inner > .v-layout:has(>.v-side):has(>.v-body){grid-template-columns:minmax(0,1fr)!important;}
+ html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-side {position:static!important;}
+}
+/* Constrain cards, not the painting. Only approved interior components are targeted. */
+html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art :is(.v-body,.v-panel,.review-panel,.v-card){min-width:0!important;max-width:100%!important;box-sizing:border-box!important;}
+html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-grid:has(>.v-card){display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:clamp(14px,1.45vw,22px)!important;}
+html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-grid:has(>.v-card).mq-single-grid{grid-template-columns:minmax(0,1fr)!important;}
+html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-grid:not(.mq-single-grid)> .v-card:last-child:nth-child(odd){grid-column:1/-1!important;}
+html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-grid>.v-card{
+ min-width:0!important;max-width:100%!important;min-height:0!important;height:auto!important;padding:clamp(18px,1.65vw,26px)!important;container-type:inline-size;
+}
+html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art :is(.v-card,.v-heading,.v-panel,.review-panel) :is(h1,h2,h3,h4){word-break:normal!important;overflow-wrap:normal!important;hyphens:manual!important;white-space:normal!important;text-wrap:pretty;max-width:100%;}
+html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-grid>.v-card :is(h2,h3){font-size:clamp(20px,8.2cqi,29px)!important;line-height:1.23!important;}
+html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-heading h1{font-size:clamp(32px,3.8vw,58px)!important;line-height:1.12!important;}
+html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-profile{grid-template-columns:minmax(0, min(28%,155px)) minmax(0,1fr)!important;gap:clamp(12px,1.4vw,22px)!important;}
+html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-table-wrap{max-width:100%!important;overflow-x:auto!important;}
+/* The emergency numbers keep their existing href and text; use existing body family. */
+html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art a[href^="tel:"]{font-family:var(--font-sans,Manrope,Arial,sans-serif)!important;font-variant-numeric:lining-nums tabular-nums!important;overflow-wrap:anywhere;}
+html.mayak-review-on[data-theme="light"] #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art :is(.v-panel,.review-panel,.v-card,.v-side) a:not(.v-button):not(.btn):not([role="button"]){color:#704522!important;}
+/* Links immediately on art, e.g. contacts details: quiet, compact paper, no full-width bars. */
+html.mayak-review-on[data-theme="light"] #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art :is(.v-inner,.v-body)>a:not(.v-button):not(.btn):not([role="button"]){color:#60391d!important;background:#fff0dc!important;border-radius:5px;padding:5px 9px!important;display:inline-block;max-width:100%;box-sizing:border-box;}
+html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art :is(.v-heading,.v-panel,.v-card,.review-panel){scroll-margin-top:calc(var(--mq-header,90px) + 18px);}
+/* Do not force a moving or fixed image on the main page desktop. Mobile gets its own artwork window. */
+@media(max-width:900px){
+ html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-inner{padding-inline:clamp(14px,4vw,36px)!important;width:100%!important;max-width:none!important;}
+ html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-layout{grid-template-columns:minmax(0,1fr)!important;width:100%!important;max-width:100%!important;}
+ html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-side{position:static!important;}
+ html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art>.mayak-v3-window{display:block!important;height:clamp(210px,36svh,330px)!important;}
+ html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art>.mayak-v3-backdrop{background-position:right center!important;}
+}
+@media(max-width:767px){
+ html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-grid:has(>.v-card){grid-template-columns:minmax(0,1fr)!important;}
+ html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-profile{grid-template-columns:minmax(0,1fr)!important;}
+ html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-heading h1{font-size:clamp(27px,7.2vw,40px)!important;}
+ html.mayak-review-on #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-grid>.v-card :is(h2,h3){font-size:clamp(20px,7.7cqi,28px)!important;}
+ html.mayak-review-on #allrecords[data-tilda-project-id="44433709"][data-tilda-page-id="415120609"] .hero .hero-bg-lighthouse img{object-position:right center!important;}
+}
+
+/* V6 mobile gallery: additive, no desktop changes. Original asset aspect 1152:928. */
+@media (max-width:767px){
+ html.mayak-review-on #allrecords[data-tilda-project-id="44433709"]{
+  --mq-mobile-paper:#101d30;--mq-mobile-ink:#f2e7d2;--mq-mobile-muted:#d9cbb4;
+ }
+ html.mayak-review-on[data-theme="light"] #allrecords[data-tilda-project-id="44433709"]{
+  --mq-mobile-paper:#fceedd;--mq-mobile-ink:#382d25;--mq-mobile-muted:#68472f;
+ }
+ /* Main page: artwork owns a complete frame; no overlapping type or duplicated images. */
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"][data-tilda-page-id="415120609"] .hero{
+  display:block!important;position:relative!important;min-height:0!important;height:auto!important;
+  padding:0!important;margin-inline:0!important;background:var(--mq-mobile-paper)!important;
+ }
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"][data-tilda-page-id="415120609"] .hero .hero-bg-lighthouse{
+  display:block!important;position:relative!important;inset:auto!important;width:100%!important;
+  height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:1152/928;
+  margin:0!important;padding:0!important;opacity:1!important;filter:none!important;transform:none!important;overflow:hidden!important;
+ }
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"][data-tilda-page-id="415120609"] .hero .hero-bg-lighthouse picture{
+  position:absolute!important;inset:0!important;width:100%!important;height:100%!important;opacity:1!important;filter:none!important;
+ }
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"][data-tilda-page-id="415120609"] .hero .hero-bg-lighthouse img{
+  width:100%!important;height:100%!important;object-fit:contain!important;object-position:center top!important;transform:none!important;opacity:1!important;filter:none!important;
+ }
+ html.mayak-review-on:not([data-theme="light"]) body #allrecords[data-tilda-project-id="44433709"][data-tilda-page-id="415120609"] .hero .hero-img-light,
+ html.mayak-review-on[data-theme="light"] body #allrecords[data-tilda-project-id="44433709"][data-tilda-page-id="415120609"] .hero .hero-img-dark{display:none!important;}
+ html.mayak-review-on:not([data-theme="light"]) body #allrecords[data-tilda-project-id="44433709"][data-tilda-page-id="415120609"] .hero .hero-img-dark,
+ html.mayak-review-on[data-theme="light"] body #allrecords[data-tilda-project-id="44433709"][data-tilda-page-id="415120609"] .hero .hero-img-light{display:block!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"][data-tilda-page-id="415120609"] .hero .hero-inner{
+  display:block!important;width:100%!important;max-width:none!important;min-height:0!important;height:auto!important;
+  margin:0!important;padding:18px clamp(20px,6vw,34px) 32px!important;box-sizing:border-box!important;
+  background:var(--mq-mobile-paper)!important;box-shadow:none!important;transform:none!important;
+ }
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"][data-tilda-page-id="415120609"] .hero .hero-copy{
+  width:100%!important;max-width:100%!important;min-width:0!important;margin:0!important;padding:0!important;background:transparent!important;box-shadow:none!important;
+ }
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"][data-tilda-page-id="415120609"] .hero .hero-copy h1{
+  font-size:clamp(29px,7.6vw,46px)!important;line-height:1.13!important;word-break:normal!important;overflow-wrap:normal!important;hyphens:manual!important;text-wrap:balance;
+ }
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"][data-tilda-page-id="415120609"] .hero .hero-disclaimer{
+  display:block!important;max-width:100%!important;width:auto!important;background:transparent!important;
+  color:var(--mq-mobile-muted)!important;border:0!important;box-shadow:none!important;border-radius:0!important;
+  padding:0!important;opacity:1!important;text-shadow:none!important;font-size:13px!important;line-height:1.55!important;
+ }
+ /* Interior: natural image frame, not a fixed painting behind reading panels. */
+ html.mayak-review-on:is([data-theme="light"],:not([data-theme="light"])) body.marine-page.mayak-unified-interior #allrecords[data-tilda-project-id="44433709"]:not([data-tilda-page-id="415120609"]) #main-content .v-content.mayak-v3-art,
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"]:not([data-tilda-page-id="415120609"]) #main-content .v-content.mayak-v3-art{
+  background:var(--mq-mobile-paper)!important;padding-top:0!important;
+ }
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art>.mayak-v3-backdrop{display:none!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art>.mayak-v3-window{
+  display:block!important;position:relative!important;width:100%!important;height:auto!important;min-height:0!important;max-height:none!important;
+  aspect-ratio:1152/928;margin:0!important;padding:0!important;overflow:hidden!important;
+  background:var(--mq-mobile-paper) url('https://aiproekt99-creator.github.io/cvm-mayak-css/release-20261125/assets/hero-aivazovsky.webp') center top/contain no-repeat!important;
+ }
+ html.mayak-review-on[data-theme="light"] body #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art>.mayak-v3-window{
+  background-image:url('https://aiproekt99-creator.github.io/cvm-mayak-css/release-20261125/assets/hero-aivazovsky-light.webp')!important;
+ }
+ /* Small bottom-edge transition only; the lighthouse and sky remain unfiltered. */
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] :is(.hero-bg-lighthouse,.mayak-v3-window)::after{
+  content:"";position:absolute;z-index:3;pointer-events:none;inset:auto 0 0;height:clamp(28px,10vw,56px);
+  background:linear-gradient(to bottom,transparent,var(--mq-mobile-paper));
+ }
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-inner{
+  padding:16px clamp(16px,5vw,30px) 36px!important;margin:0!important;background:transparent!important;
+ }
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art :is(.v-heading,.v-crumbs,.v-article-nav) :is(h1,p,a,span,small){
+  color:var(--mq-mobile-ink)!important;text-shadow:none!important;
+ }
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-heading{margin:10px 0 22px!important;gap:12px!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-heading img{width:52px!important;height:52px!important;object-fit:contain!important;flex:none!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-heading h1{font-size:clamp(27px,7.2vw,40px)!important;line-height:1.13!important;overflow-wrap:normal!important;word-break:normal!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-grid:has(>.v-card){grid-template-columns:minmax(0,1fr)!important;gap:14px!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art :is(.v-panel,.review-panel,.v-grid>.v-card){padding:clamp(16px,5vw,24px)!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-side{position:static!important;margin-bottom:16px!important;}
+ /* Reserve bottom safe space for the existing floating assistant. */
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] footer{padding-bottom:max(76px,calc(env(safe-area-inset-bottom) + 60px))!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] [data-v-ogonek]{min-height:44px!important;max-width:calc(100vw - 24px)!important;}
+}
+
+/* V7 Mobile Fine Art — all visual overrides scoped to mobile and refined mode. */
+@media(max-width:767px){
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .header-inner{gap:6px!important;padding-inline:12px!important;display:flex!important;align-items:center!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .logo-brand{flex:1 1 0%!important;min-width:0!important;gap:7px!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .logo-mark{width:40px!important;height:40px!important;flex:0 0 40px!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .brand-text{min-width:0!important;font-size:clamp(14px,4vw,18px)!important;white-space:normal!important;line-height:1.15!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .brand-text small{font-size:9px!important;line-height:1.25!important;overflow-wrap:normal!important;white-space:normal!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .mayak-signature-tools{display:flex!important;flex:0 0 auto!important;gap:4px!important;padding:0!important;border:0!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header :is(.mayak-search-button,.theme-toggle,.nav-toggle){display:inline-flex!important;align-items:center!important;justify-content:center!important;flex:0 0 44px!important;width:44px!important;height:44px!important;min-width:44px!important;margin:0!important;padding:0!important;box-shadow:none!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .mayak-search-button{order:0;border:1px solid var(--mayak-header-line,#a58c65)!important;border-radius:50%;color:var(--mayak-header-accent,#d6b77b);background:transparent;cursor:pointer;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .theme-toggle{order:1;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .nav-toggle{order:2;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .mayak-search-button svg{width:19px;height:19px;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .mayak-search-panel:not([hidden]){position:absolute!important;inset:calc(100% + 8px) 12px auto 12px!important;width:auto!important;max-width:none!important;max-height:var(--mq-v7-search-height,65dvh)!important;overflow:auto!important;overscroll-behavior:contain;box-sizing:border-box!important;padding:14px!important;z-index:1900!important;background:var(--mayak-search-bg,#1b2940)!important;color:var(--mayak-header-ink,#e9e3d7)!important;border:1px solid var(--mayak-header-line,#a58c65)!important;border-radius:14px!important;box-shadow:0 8px 24px #0003!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .mayak-search-panel[hidden]{display:none!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .mq-v7-search-top{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:6px;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .mq-v7-search-top b{font-size:16px;font-weight:600;color:inherit;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .mq-v7-search-close{width:44px;height:44px;flex:none;border:1px solid var(--mayak-header-line,#a58c65);background:transparent;color:inherit;border-radius:50%;font:24px/1 Arial;cursor:pointer;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .mayak-search-panel .header-search{display:flex!important;position:relative!important;inset:auto!important;width:100%!important;max-width:none!important;margin:0!important;visibility:visible!important;opacity:1!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .mayak-search-panel input{min-height:44px!important;font-size:16px!important;width:100%!important;min-width:0!important;color:var(--mayak-header-ink,#e9e3d7)!important;background:transparent!important;box-sizing:border-box!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .mayak-search-panel input::placeholder{color:var(--mayak-header-ink,#e9e3d7)!important;opacity:.85!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .mayak-search-results{list-style:none!important;margin:10px 0 0!important;padding:0!important;max-height:none!important;overflow:visible!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .mayak-search-results li{background:transparent!important;color:inherit!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .mayak-search-results a{display:flex!important;align-items:center!important;min-height:44px!important;padding:10px 8px!important;box-sizing:border-box!important;background:var(--mayak-search-bg,#1b2940)!important;color:var(--mayak-header-ink,#e9e3d7)!important;border-bottom:1px solid var(--mayak-header-line,#a58c65)!important;text-decoration:none!important;line-height:1.35!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #mobile-nav[aria-hidden="false"]{position:fixed!important;inset:0!important;width:100%!important;height:100dvh!important;max-height:100dvh!important;box-sizing:border-box!important;display:flex!important;flex-direction:column!important;align-items:stretch!important;justify-content:flex-start!important;gap:1px!important;padding: max(12px,env(safe-area-inset-top)) 24px max(20px,env(safe-area-inset-bottom))!important;overflow-y:auto!important;overscroll-behavior:contain;background:#1b2547!important;opacity:1!important;visibility:visible!important;z-index:1800!important;backdrop-filter:none!important;}
+ html.mayak-review-on[data-theme="light"] body #allrecords[data-tilda-project-id="44433709"] #mobile-nav[aria-hidden="false"]{background:#fceedd!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #mobile-nav[aria-hidden="false"]>a{min-height:44px!important;flex:0 0 auto!important;padding:8px 10px!important;display:flex!important;align-items:center!important;justify-content:center!important;font-size:clamp(19px,5.3vw,25px)!important;line-height:1.2!important;margin:0!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #mobile-nav .mobile-nav-close{position:relative!important;inset:auto!important;align-self:flex-end!important;flex:none!important;width:44px!important;height:44px!important;margin:0 0 8px!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #mobile-nav[aria-hidden="true"]{pointer-events:none!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"].mq-v7-overlay [data-v-ogonek]{visibility:hidden!important;pointer-events:none!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"].mq-v7-compact [data-v-ogonek]{width:48px!important;height:48px!important;min-width:48px!important;min-height:48px!important;padding:4px!important;gap:0!important;right:max(10px,env(safe-area-inset-right))!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"].mq-v7-compact [data-v-ogonek]>.mq-v7-og-label{position:absolute!important;width:1px!important;height:1px!important;overflow:hidden!important;clip-path:inset(50%)!important;white-space:nowrap!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .hero .hero-inner{padding-top:12px!important;padding-bottom:24px!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .hero .hero-copy :is(.hero-eyebrow,h1,.hero-motto,.subhead,.hero-ctas,.hero-disclaimer){margin-block:0 10px!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .hero .hero-copy .gold-line{margin-block:8px!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .hero .hero-copy .subhead{line-height:1.5!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #kategorii .card{min-height:0!important;height:auto!important;padding:20px 18px!important;box-shadow:0 3px 12px #00000016!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #kategorii .cards-grid{gap:14px!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art :is(.v-panel,.review-panel,.v-card,.v-side){box-shadow:0 3px 12px #00000018!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-inner{padding-bottom:22px!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-grid>.v-card{min-height:0!important;gap:10px!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art{padding-bottom:0!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] footer{position:relative;border-top:0!important;margin-top:0!important;padding-top:24px!important;box-shadow:none!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] footer::before{content:"";position:absolute;inset:0 0 auto;height:22px;background:linear-gradient(to bottom,var(--mq-mobile-paper),transparent);pointer-events:none;}
+ html.mayak-review-on[data-theme="light"] body #allrecords[data-tilda-project-id="44433709"] footer :is(.brand-text,.brand-text small,.footer-brand p){color:#382d25!important;opacity:1!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .mist-to-cream{height:18px!important;min-height:0!important;background:linear-gradient(to bottom,var(--mq-mobile-paper),var(--mayak-seam,var(--mq-mobile-paper)))!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] :is(.mayak-search-button,.mq-v7-search-close):focus-visible{outline:2px solid currentColor!important;outline-offset:2px!important;}
+}
+@media(min-width:768px){.mq-v7-only{display:none!important;}}
+html:not(.mayak-review-on) .mq-v7-only{display:none!important;}
+
+/* V8 Mobile Precision: align existing controls, panels and art. */
+@media(max-width:767px){
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header{overflow:visible!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .header-inner{
+  position:relative!important;display:flex!important;flex-wrap:nowrap!important;justify-content:space-between!important;align-items:center!important;gap:6px!important;padding-inline:12px!important;width:100%!important;max-width:100%!important;overflow:visible!important;box-sizing:border-box!important;
+ }
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .header-inner>.logo-brand{position:static!important;flex:1 1 0!important;min-width:0!important;max-width:100%!important;margin:0!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .logo-brand .brand-text{min-width:0!important;overflow-wrap:normal!important;font-size:clamp(13px,3.6vw,17px)!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .logo-brand .brand-text small{font-size:clamp(8px,2.25vw,10px)!important;line-height:1.15!important;letter-spacing:0!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .mq-v8-tools{position:static!important;inset:auto!important;transform:none!important;display:flex!important;flex:0 0 auto!important;flex-wrap:nowrap!important;align-items:center!important;justify-content:flex-end!important;gap:4px!important;width:auto!important;min-width:0!important;margin:0!important;padding:0!important;border:0!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .mq-v8-tools>:is(.mayak-search-button,.theme-toggle,.nav-toggle){
+  position:static!important;inset:auto!important;transform:none!important;float:none!important;display:inline-flex!important;visibility:visible!important;opacity:1!important;align-items:center!important;justify-content:center!important;flex:0 0 44px!important;width:44px!important;height:44px!important;min-width:44px!important;max-width:44px!important;min-height:44px!important;margin:0!important;padding:0!important;border-radius:50%!important;box-sizing:border-box!important;box-shadow:none!important;color:var(--mayak-header-accent,#d6b77b)!important;
+ }
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .mq-v8-tools>.mayak-search-button{order:0!important;border:1px solid var(--mayak-header-line,#a58c65)!important;background:transparent!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .mq-v8-tools>.theme-toggle{order:1!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .mq-v8-tools>.nav-toggle{order:2!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .mq-v8-tools>.mayak-search-button svg{position:static!important;inset:auto!important;transform:none!important;display:block!important;flex:none!important;width:20px!important;height:20px!important;opacity:1!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .header-inner>.mayak-search-panel:not([hidden]){
+  position:absolute!important;inset:calc(100% + 8px) 12px auto 12px!important;transform:none!important;translate:none!important;float:none!important;width:auto!important;min-width:0!important;max-width:none!important;height:auto!important;margin:0!important;max-height:var(--mq-v7-search-height,65dvh)!important;z-index:30!important;opacity:1!important;visibility:visible!important;overflow:auto!important;display:block!important;box-sizing:border-box!important;
+ }
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .mayak-search-panel .header-search{transform:none!important;float:none!important;min-width:0!important;height:auto!important;padding:0!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .mayak-search-panel input{position:static!important;transform:none!important;flex:1 1 auto!important;opacity:1!important;visibility:visible!important;padding:10px 12px!important;border:1px solid var(--mayak-header-line,#a58c65)!important;border-radius:8px!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .mayak-search-panel .search-icon{display:none!important;}
+ /* Preserve every pixel of the painting above its bottom-edge blend. */
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"]{--mq-v8-gutter:clamp(16px,4.3vw,24px);--mq-v8-gap:16px;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] :is(.hero-bg-lighthouse,.mayak-v3-window)::after{height:clamp(52px,19vw,108px)!important;background:linear-gradient(to bottom,transparent 0%,var(--mq-mobile-paper) 100%)!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"][data-tilda-page-id="415120609"] .hero .hero-inner{position:relative!important;z-index:5!important;margin-top:0!important;padding-top:2px!important;padding-inline:var(--mq-v8-gutter)!important;background:var(--mq-mobile-paper)!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"][data-tilda-page-id="415120609"] .hero .mayak-seam-fade{display:none!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"][data-tilda-page-id="415120609"] .mist-to-cream{height:0!important;min-height:0!important;padding:0!important;margin:0!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"][data-tilda-page-id="415120609"] #kategorii .mayak-seam-in{display:none!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"][data-tilda-page-id="415120609"] #kategorii{background-color:var(--mq-mobile-paper)!important;background-image:linear-gradient(to bottom,var(--mq-mobile-paper),transparent 100px)!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"][data-tilda-page-id="415120609"] #kategorii .section-inner{width:100%!important;max-width:100%!important;padding-inline:var(--mq-v8-gutter)!important;box-sizing:border-box!important;margin-inline:0!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"][data-tilda-page-id="415120609"] #kategorii .section-inner>:is(.cards-grid,.mayak-help-teaser,.section-cta){width:100%!important;max-width:100%!important;box-sizing:border-box!important;margin-inline:0!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #kategorii .cards-grid{display:grid!important;grid-template-columns:minmax(0,1fr)!important;gap:var(--mq-v8-gap)!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #kategorii .cards-grid>.card{width:100%!important;max-width:100%!important;min-width:0!important;margin-inline:0!important;box-sizing:border-box!important;}
+ /* Align sibling panels; do not flatten nested document galleries or their images. */
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-inner{padding:8px var(--mq-v8-gutter) 24px!important;width:100%!important;max-width:none!important;box-sizing:border-box!important;margin:0!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art :is(.v-inner,.v-body,.support-simple) > :is(.v-layout,.v-side,.v-grid,.review-panel,.v-panel,.support-compact-layout){width:100%!important;min-width:0!important;max-width:none!important;box-sizing:border-box!important;margin-inline:0!important;justify-self:stretch!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-layout{display:grid!important;grid-template-columns:minmax(0,1fr)!important;gap:var(--mq-v8-gap)!important;padding:0!important;margin-inline:0!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-layout>.v-body{width:100%!important;max-width:none!important;min-width:0!important;margin:0!important;padding:0!important;box-sizing:border-box!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-layout>.v-side{width:100%!important;max-width:none!important;display:flex!important;flex-direction:column!important;align-items:stretch!important;gap:2px!important;margin:0!important;box-sizing:border-box!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-side>a{display:block!important;width:100%!important;box-sizing:border-box!important;margin-inline:0!important;min-height:44px!important;text-align:left!important;white-space:normal!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-grid:has(>.v-card){width:100%!important;max-width:none!important;grid-template-columns:minmax(0,1fr)!important;gap:var(--mq-v8-gap)!important;margin-inline:0!important;padding-inline:0!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-grid>.v-card{width:100%!important;min-width:0!important;max-width:none!important;margin-inline:0!important;grid-column:1/-1!important;box-sizing:border-box!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art :is(.v-panel,.v-card,.review-panel,.v-side){border-radius:16px!important;box-shadow:0 3px 12px #00000012!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content{background-color:var(--mq-mobile-paper)!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] footer{border-top:0!important;margin-top:0!important;background-color:var(--mq-mobile-paper)!important;background-image:linear-gradient(180deg,var(--mq-mobile-paper),var(--mq-mobile-paper))!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] footer::before{display:none!important;}
+ /* Disable only the duplicated view-transition animation on mobile. */
+ html.mayak-review-on::view-transition-old(root),html.mayak-review-on::view-transition-new(root){animation:none!important;mix-blend-mode:normal!important;}
+}
+
+/* V8 final mobile measurements: explicit logo geometry even without upstream styles. */
+@media(max-width:767px){
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .header-inner{min-height:70px!important;padding-block:10px!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .header-inner>.logo-brand{display:flex!important;align-items:center!important;gap:7px!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .logo-brand .logo-mark{display:inline-flex!important;align-items:center!important;justify-content:center!important;width:40px!important;height:40px!important;min-width:40px!important;flex:0 0 40px!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .logo-brand .logo-mark img{display:block!important;width:100%!important;height:100%!important;max-width:100%!important;object-fit:contain!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .logo-brand .brand-text{display:block!important;flex:1 1 auto!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .header-inner:has(>.mq-v8-tools)>.mayak-signature-tools{display:none!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .v-content.mayak-v3-art{padding-inline:0!important;box-sizing:border-box!important;}
+}
+
+/* V9: mobile-only acceptance polish; keep V8 desktop rules intact. */
+@media(max-width:767px){
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"]{--mq-v9-menu-accent:#dfc28a;--mq-v9-menu-press:#d4b67820;--mq-v9-search-line:#9d885f;}
+ html.mayak-review-on[data-theme="light"] body #allrecords[data-tilda-project-id="44433709"]{--mq-v9-menu-accent:#855329;--mq-v9-menu-press:#aa77451c;--mq-v9-search-line:#a78c70;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #mobile-nav[aria-hidden="false"]>a:not(.mobile-cta){position:relative!important;flex-direction:column!important;gap:0!important;isolation:isolate;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #mobile-nav[aria-hidden="false"]>a.mq-v9-current:not(.mobile-cta){color:var(--mq-v9-menu-accent)!important;text-decoration:none!important;font-weight:600!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #mobile-nav[aria-hidden="false"]>a.mq-v9-current:not(.mobile-cta)::after{content:"";position:absolute;bottom:3px;left:50%;transform:translateX(-50%);width:30px;height:1px;background:var(--mq-v9-menu-accent);pointer-events:none;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #mobile-nav[aria-hidden="false"]>a:active{background:var(--mq-v9-menu-press)!important;color:var(--mq-v9-menu-accent)!important;border-radius:8px;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #mobile-nav[aria-hidden="false"]>a:focus-visible{outline:2px solid var(--mq-v9-menu-accent)!important;outline-offset:-2px!important;box-shadow:none!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .mayak-search-panel .header-search{border:0!important;outline:0!important;box-shadow:none!important;background:transparent!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .mayak-search-panel input{border:1px solid var(--mq-v9-search-line)!important;border-radius:8px!important;box-shadow:none!important;outline:none!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .mayak-search-panel input:focus-visible{outline:2px solid var(--mq-v9-menu-accent)!important;outline-offset:2px!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art .v-inner{padding-bottom:14px!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art :is(.v-layout,.v-body,.v-inner) > :last-child{margin-bottom:0!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] footer{padding-top:16px!important;padding-bottom:max(82px,calc(env(safe-area-inset-bottom) + 68px))!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] footer .footer-inner{padding-top:0!important;padding-bottom:0!important;margin-top:0!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .v-profile>img,
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .v-profile>figure>img{display:block!important;width:min(100%,220px)!important;height:auto!important;max-width:100%!important;object-fit:contain!important;margin-inline:auto!important;}
+ /* Keep the floating control in its original DOM; adjust its bottom position only if the credits intersect. */
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"].mq-v9-footer [data-v-ogonek]{bottom:var(--mq-v9-helper-bottom,12px)!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] footer .site-credits{position:relative;z-index:1;}
+}
+
+/* V10 — the existing consent notice is styled on BOTH desktop and mobile.
+   It is moved to body by the existing site script: no new dialog, no new consent mechanism. */
+html.mayak-review-on{--mq-v10-cookie-paper:#19263d;--mq-v10-cookie-ink:#f1e5cf;--mq-v10-cookie-accent:#e0c18b;--mq-v10-cookie-line:#a68e65;--mq-v10-control-line:#a68e657a;}
+html.mayak-review-on[data-theme="light"]{--mq-v10-cookie-paper:#fdf0df;--mq-v10-cookie-ink:#3e3028;--mq-v10-cookie-accent:#79502b;--mq-v10-cookie-line:#a78663;--mq-v10-control-line:#ad8b666b;}
+html.mayak-review-on body #cookie-banner:not([hidden]){
+ position:fixed!important;inset:auto 18px max(18px,env(safe-area-inset-bottom)) 18px!important;transform:none!important;
+ width:auto!important;max-width:720px!important;margin:0 auto!important;box-sizing:border-box!important;
+ padding:14px 18px!important;background:var(--mq-v10-cookie-paper)!important;color:var(--mq-v10-cookie-ink)!important;
+ border:1px solid var(--mq-v10-cookie-line)!important;border-radius:14px!important;box-shadow:0 6px 22px #0003!important;z-index:8500!important;
+}
+html.mayak-review-on body #cookie-banner[hidden]{display:none!important;}
+html.mayak-review-on body #cookie-banner>div{display:flex!important;align-items:center!important;justify-content:space-between!important;flex-wrap:nowrap!important;gap:14px!important;}
+html.mayak-review-on body #cookie-banner p{flex:1 1 auto!important;min-width:0!important;margin:0!important;font-size:14px!important;line-height:1.55!important;color:var(--mq-v10-cookie-ink)!important;}
+html.mayak-review-on body #cookie-banner p a{color:var(--mq-v10-cookie-accent)!important;text-decoration:underline!important;text-underline-offset:3px!important;}
+html.mayak-review-on body #cookie-banner [data-cookie-accept]{flex:0 0 auto!important;min-height:44px!important;padding:9px 22px!important;box-sizing:border-box!important;font-size:14px!important;font-weight:600!important;color:var(--mq-v10-cookie-accent)!important;background:transparent!important;border:1px solid var(--mq-v10-cookie-line)!important;border-radius:999px!important;box-shadow:none!important;transform:none!important;}
+html.mayak-review-on body #cookie-banner [data-cookie-accept]:hover{background:#bd986419!important;}
+html.mayak-review-on body #cookie-banner :is(a,button):focus-visible{outline:2px solid var(--mq-v10-cookie-accent)!important;outline-offset:3px!important;}
+/* Local review controls must not cover the consent notice. */
+html.mayak-review-on.mq-v10-cookie-open #allrecords[data-tilda-project-id="44433709"].mq-v10-cookie-collision [data-v-ogonek]{bottom:max(var(--mq-v10-cookie-clear,160px),var(--mq-v9-helper-bottom,12px))!important;}
+@media(max-width:767px){
+ html.mayak-review-on body #cookie-banner:not([hidden]){inset:auto 12px max(12px,env(safe-area-inset-bottom)) 12px!important;max-width:none!important;padding:12px 14px!important;border-radius:12px!important;max-height:calc(100dvh - 90px)!important;overflow:auto!important;}
+ html.mayak-review-on body #cookie-banner>div{flex-wrap:wrap!important;gap:8px!important;justify-content:flex-end!important;}
+ html.mayak-review-on body #cookie-banner p{flex-basis:100%!important;font-size:13px!important;line-height:1.45!important;}
+ html.mayak-review-on body #cookie-banner [data-cookie-accept]{padding:8px 20px!important;min-width:110px!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #mobile-nav[aria-hidden="false"]>.mobile-cta{width:min(64%,200px)!important;max-width:100%!important;min-height:44px!important;align-self:center!important;margin:5px auto 10px!important;font-size:16px!important;font-weight:500!important;line-height:1.25!important;padding:9px 18px!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #mobile-nav[aria-hidden="false"]>.mobile-cta::after{content:"";position:absolute;left:32%;right:32%;height:1px;bottom:-9px;background:var(--mq-v10-control-line);pointer-events:none;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #mobile-nav[aria-hidden="false"]>.mobile-cta{position:relative!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] :is(#mobile-nav .mobile-nav-close,.mq-v7-search-close){border:1px solid var(--mq-v10-control-line)!important;box-shadow:none!important;outline:none!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] :is(#mobile-nav .mobile-nav-close,.mq-v7-search-close):focus-visible{outline:2px solid var(--mq-v10-cookie-accent)!important;outline-offset:2px!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .mq-v8-tools>button svg{width:20px!important;height:20px!important;}
+ /* V11: keep the fade inside the artwork; never overlap the breadcrumb row.
+    The original image is NOT rescaled or cropped. */
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"]:not([data-tilda-page-id="415120609"]) #main-content .mayak-v3-art>.mayak-v3-window{margin-bottom:0!important;isolation:isolate;z-index:0!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"]:not([data-tilda-page-id="415120609"]) #main-content .mayak-v3-art>.mayak-v3-window::after{height:clamp(80px,25vw,140px)!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"]:not([data-tilda-page-id="415120609"]) #main-content .mayak-v3-art .v-inner{position:relative!important;z-index:4!important;padding-top:14px!important;}
+}
+
+/* V11 mobile optical scale: preserve full 44px hit areas. */
+@media(max-width:767px){
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .mq-v8-tools>button{position:relative!important;border:0!important;background:transparent!important;box-shadow:none!important;width:44px!important;height:44px!important;min-width:44px!important;min-height:44px!important;max-width:44px!important;flex:0 0 44px!important;padding:0!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .mq-v8-tools>button::before{content:"";position:absolute;top:50%;left:50%;width:34px;height:34px;transform:translate(-50%,-50%);border:1px solid var(--mq-v10-control-line);border-radius:50%;box-sizing:border-box;pointer-events:none;background:transparent;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .mq-v8-tools>button svg{width:17px!important;height:17px!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .mq-v8-tools>button i{font-size:17px!important;line-height:1!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .mq-v8-tools>button:active::before{background:var(--mq-v9-menu-press);}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .mq-v8-tools>button:focus-visible{outline:2px solid var(--mq-v10-cookie-accent)!important;outline-offset:1px!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #mobile-nav[aria-hidden="false"]>.mobile-cta{width:min(58%,190px)!important;font-size:16px!important;min-height:44px!important;font-weight:500!important;}
+}
+
+/* V12: optical rings are anchored to the actual controls. Desktop unaffected. */
+@media(max-width:767px){
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .mq-v8-tools.mq-v7-only{gap:2px!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .mq-v8-tools.mq-v7-only>:is(.mayak-search-button,.theme-toggle,.nav-toggle){position:relative!important;inset:auto!important;transform:none!important;translate:none!important;border:0!important;background:transparent!important;box-shadow:none!important;outline:none!important;overflow:visible!important;color:var(--mq-v10-cookie-accent)!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .mq-v8-tools.mq-v7-only>:is(.mayak-search-button,.theme-toggle,.nav-toggle)::before{content:""!important;position:absolute!important;inset:50% auto auto 50%!important;transform:translate(-50%,-50%)!important;translate:none!important;width:34px!important;height:34px!important;border:1px solid var(--mq-v10-control-line)!important;border-radius:50%!important;background:transparent!important;box-shadow:none!important;pointer-events:none!important;box-sizing:border-box!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .mq-v8-tools.mq-v7-only>:is(.mayak-search-button,.theme-toggle,.nav-toggle)::after{content:""!important;display:block!important;position:absolute!important;inset:50% auto auto 50%!important;transform:translate(-50%,-50%)!important;translate:none!important;width:18px!important;height:18px!important;background:currentColor!important;border:0!important;border-radius:0!important;opacity:1!important;pointer-events:none!important;mask:var(--mq-v12-icon) center/contain no-repeat!important;-webkit-mask:var(--mq-v12-icon) center/contain no-repeat!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .mq-v8-tools.mq-v7-only>:is(.mayak-search-button,.theme-toggle,.nav-toggle)>*{opacity:0!important;pointer-events:none!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .mq-v8-tools.mq-v7-only>:is(.mayak-search-button,.theme-toggle,.nav-toggle):focus-visible{outline:2px solid var(--mq-v10-cookie-accent)!important;outline-offset:0!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .mq-v8-tools.mq-v7-only>:is(.mayak-search-button,.theme-toggle,.nav-toggle):active::before{background:var(--mq-v9-menu-press)!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .mq-v8-tools.mq-v7-only>.mayak-search-button{--mq-v12-icon:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%221.75%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20cx%3D%2210.5%22%20cy%3D%2210.5%22%20r%3D%226.5%22%2F%3E%3Cpath%20d%3D%22m15.5%2015.5%205%205%22%2F%3E%3C%2Fsvg%3E");}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .mq-v8-tools.mq-v7-only>.theme-toggle{--mq-v12-icon:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%221.75%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%224%22%2F%3E%3Cpath%20d%3D%22M12%202v2m0%2016v2M2%2012h2m16%200h2M5%205l1.5%201.5m11%2011L19%2019M19%205l-1.5%201.5m-11%2011L5%2019%22%2F%3E%3C%2Fsvg%3E");}
+ html.mayak-review-on[data-theme="light"] body #allrecords[data-tilda-project-id="44433709"] .site-header .mq-v8-tools>.theme-toggle{--mq-v12-icon:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%221.75%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M20.5%2015A9%209%200%200%201%209%203.5%209%209%200%201%200%2020.5%2015Z%22%2F%3E%3C%2Fsvg%3E");}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .mq-v8-tools.mq-v7-only>.nav-toggle{--mq-v12-icon:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%221.75%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M4%206h16M4%2012h16M4%2018h16%22%2F%3E%3C%2Fsvg%3E");}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #mobile-nav[aria-hidden="false"]>.mobile-cta{width:min(60%,176px)!important;max-width:176px!important;box-sizing:border-box!important;height:auto!important;min-height:44px!important;white-space:nowrap!important;padding:8px 14px!important;font-size:15px!important;line-height:1.25!important;border:1px solid var(--mq-v10-control-line)!important;color:var(--mq-v10-cookie-accent)!important;background:transparent!important;box-shadow:none!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #mobile-nav[aria-hidden="false"]>.mobile-cta::after{background:var(--mq-v10-control-line)!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #mobile-nav[aria-hidden="false"]>a.mq-v9-current:not(.mobile-cta)::after{bottom:4px!important;width:30px!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #mobile-nav .mobile-nav-close{border:1px solid var(--mq-v10-control-line)!important;background:transparent!important;box-shadow:none!important;color:var(--mq-v10-cookie-accent)!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #mobile-nav .mobile-nav-close:focus-visible{outline:2px solid var(--mq-v10-cookie-accent)!important;outline-offset:2px!important;}
+ html.mayak-review-on[data-theme="light"] body #allrecords[data-tilda-project-id="44433709"][data-tilda-page-id="415120609"] .hero .hero-ctas .btn-primary{background:linear-gradient(135deg,#a05b35,#884622)!important;color:#fff!important;border:1px solid #ac7c57!important;box-shadow:0 3px 10px #6c442126!important;}
+ html.mayak-review-on[data-theme="light"] body #allrecords[data-tilda-project-id="44433709"][data-tilda-page-id="415120609"] .hero .hero-ctas .btn-primary::before{opacity:0!important;}
+}
+
+/* V13: prevent cross-document snapshot fades and root background interpolation. */
+@view-transition {navigation:none;}
+html.mayak-review-on::view-transition-group(root),html.mayak-review-on::view-transition-old(root),html.mayak-review-on::view-transition-new(root){animation:none!important;mix-blend-mode:normal!important;}
+html.mayak-review-on body{transition-property:color!important;}
+html.mq-theme-sync,html.mq-theme-sync body,html.mq-theme-sync #allrecords,html.mq-theme-sync #allrecords *,html.mq-theme-sync #allrecords *::before,html.mq-theme-sync #allrecords *::after{transition:none!important;}
+
+/* V14: daytime footer wordmark subtitle only. All viewport widths. */
+html.mayak-review-on[data-theme="light"] body #allrecords[data-tilda-project-id="44433709"] footer#svyaz .footer-brand .logo-brand .brand-text small,
+html.mayak-review-on[data-theme="light"] body #allrecords[data-tilda-project-id="44433709"] footer#svyaz .footer-brand .logo-brand .brand-text small * {
+  color:#49352c!important;
+  opacity:1!important;
+  text-shadow:none!important;
+}
+
+/* RC1: compact mobile homepage CTAs; preserve approved palette and desktop. */
+@media(max-width:767px){
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"][data-tilda-page-id="415120609"] .hero .hero-copy .hero-ctas{display:flex!important;flex-direction:column!important;align-items:flex-start!important;gap:10px!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"][data-tilda-page-id="415120609"] .hero .hero-copy .hero-ctas :is(.btn-primary,.btn-secondary-outline){display:inline-flex!important;align-items:center!important;gap:8px!important;box-sizing:border-box!important;width:auto!important;max-width:100%!important;min-width:0!important;min-height:44px!important;height:auto!important;padding:10px 20px!important;font-size:15px!important;line-height:1.4!important;margin:0!important;justify-content:center!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"][data-tilda-page-id="415120609"] .hero .hero-copy .hero-ctas .btn-primary{padding-inline:22px!important;}
+}
+
+/* RC2 — final contrast and mobile editorial rhythm. No changes to artwork or text. */
+html.mayak-review-on[data-theme="light"] body #allrecords[data-tilda-project-id="44433709"] #main-content .v-tabs a{
+  color:#65401f!important;background:#f9ebd8!important;border:1px solid #b99369!important;
+  text-shadow:none!important;box-shadow:none!important;opacity:1!important;line-height:1.4!important;
+}
+html.mayak-review-on[data-theme="light"] body #allrecords[data-tilda-project-id="44433709"] #main-content .v-tabs a:is([aria-current="page"],.mq-rc2-current){
+  background:#ebd1ab!important;border-color:#96714c!important;color:#503118!important;font-weight:600!important;
+}
+@media(hover:hover) and (pointer:fine){
+ html.mayak-review-on[data-theme="light"] body #allrecords[data-tilda-project-id="44433709"] #main-content .v-tabs a:hover{background:#f0ddbf!important;border-color:#96714c!important;color:#503118!important;}
+}
+html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .v-tabs a:focus-visible{outline:2px solid currentColor!important;outline-offset:3px!important;}
+html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .main-nav a.mq-rc2-current{color:var(--mayak-header-accent,#d6b77b)!important;text-decoration:underline!important;text-underline-offset:7px!important;text-decoration-thickness:1px!important;}
+/* The route, not the last click, determines persistent selection. Keep keyboard focus. */
+@media(hover:none){
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .main-nav a:not(.mq-rc2-current):not(:focus-visible):hover{color:var(--mayak-header-ink,inherit)!important;text-decoration:none!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .site-header .main-nav a:not(.mq-rc2-current):not(:focus-visible):hover::after{transform:scaleX(0)!important;}
+}
+@media(max-width:767px){
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .hero .hero-copy .subhead{line-height:1.65!important;margin-block-end:16px!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] .hero .hero-copy .hero-motto{line-height:1.55!important;margin-block-end:14px!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art :is(.v-panel,.review-panel,.v-card,.v-profile) p{line-height:1.65!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art :is(.v-panel,.review-panel,.v-card,.v-profile) p+p{margin-top:14px!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .mayak-v3-art :is(.v-panel,.review-panel,.v-card) :is(h2,h3)+p{margin-top:10px!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .v-tabs{gap:8px!important;}
+ html.mayak-review-on body #allrecords[data-tilda-project-id="44433709"] #main-content .v-tabs a{max-width:100%!important;box-sizing:border-box!important;white-space:normal!important;min-height:44px!important;}
+}
